@@ -11,13 +11,16 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
+  netty-threads: -1
   late-bind: false
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  netty-threads: -1
   bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
@@ -28,15 +31,13 @@ messages:
   server-full: The ioCraft.org Server is full, consider VIP!
   outdated-client: Outdated ioCraft.org client! Please use {}
   outdated-server: Outdated ioCraft.org server! I'm still on {}
-commands:
-  log: true
-  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -45,6 +46,25 @@ world-settings:
       pumpkin-modifier: 100
       sapling-modifier: 100
       wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    random-light-updates: false
+    save-structure-info: true
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -65,37 +85,17 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    random-light-updates: false
-    save-structure-info: true
     max-bulk-chunks: 5
     max-entity-collisions: 8
     max-tick-time:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    mob-spawn-range: 4
-    zombie-aggressive-towards-villager: true
-    arrow-despawn-rate: 1200
     item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
+    use-async-lighting: false
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    use-async-lighting: false
+    zombie-aggressive-towards-villager: true
