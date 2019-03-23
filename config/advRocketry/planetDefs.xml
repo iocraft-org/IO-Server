@@ -1,15 +1,15 @@
 <galaxy>
 	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
-		<planet name="Alpha" DIMID="1000" dimMapping="">
+		<planet name="Alpha" DIMID="1001" dimMapping="">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>1</gravitationalMultiplier>
 			<orbitalDistance>100</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
-			<gravitationalMultiplier>1</gravitationalMultiplier>
 			<rotationalPeriod>24000</rotationalPeriod>
-			<biomeIds>96</biomeIds>
-			<planet name="Luna" DIMID="1001">
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="Luna" DIMID="1002">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -21,7 +21,7 @@
 				<biomeIds>95</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Thesulia Prime" DIMID="1002">
+		<planet name="Thesulia Prime" DIMID="1003">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.7160353,0.69217515,1.0</skyColor>
@@ -31,7 +31,7 @@
 			<rotationalPeriod>10923</rotationalPeriod>
 			<atmosphereDensity>62</atmosphereDensity>
 			<biomeIds>27,132,2,38,29</biomeIds>
-			<planet name="Thesulia Prime: Osirus" DIMID="1003">
+			<planet name="Thesulia Prime: Osirus" DIMID="1004">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.18821323,0.82254326,1.0</skyColor>
@@ -42,7 +42,7 @@
 				<atmosphereDensity>29</atmosphereDensity>
 				<biomeIds>24,2,163,155,21</biomeIds>
 			</planet>
-			<planet name="Thesulia Prime: Aman" DIMID="1004">
+			<planet name="Thesulia Prime: Aman" DIMID="1005">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.16651207,0.7478919,1.0</skyColor>
@@ -56,7 +56,7 @@
 		</planet>
 	</star>
 	<star name="Octavia" temp="50" x="150" y="150" size="2.0" numPlanets="0" numGasGiants="0">
-		<planet name="Odysseus" DIMID="2000" dimMapping="">
+		<planet name="Odysseus" DIMID="1006" dimMapping="">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
@@ -65,7 +65,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
-			<planet name="Odysseus: Galileo" DIMID="2001">
+			<planet name="Odysseus: Galileo" DIMID="1007">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -77,7 +77,7 @@
 				<biomeIds>110,119</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Varus" DIMID="2002">
+		<planet name="Varus" DIMID="1008">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.7160353,0.69217515,1.0</skyColor>
@@ -87,7 +87,7 @@
 			<rotationalPeriod>10923</rotationalPeriod>
 			<atmosphereDensity>62</atmosphereDensity>
 			<biomeIds>27,132,2,38,29</biomeIds>
-			<planet name="Varus: Vitellius" DIMID="2003">
+			<planet name="Varus: Vitellius" DIMID="1009">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.18821323,0.82254326,1.0</skyColor>
@@ -99,5 +99,5 @@
 				<biomeIds>24,2,163,155,21</biomeIds>
 			</planet>
 		</planet>
-	</star>	
+	</star>
 </galaxy>
