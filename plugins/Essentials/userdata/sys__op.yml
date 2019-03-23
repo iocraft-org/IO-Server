@@ -1,8 +1,8 @@
 geolocation: United States
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553349534872
-  logout: 1553345982377
+  login: 1553351552401
+  logout: 1553351654861
   lastteleport: 1553347848249
   kits:
     tools: 1552961473962
@@ -16,11 +16,11 @@ lastlocation:
   pitch: -9.900007
 logoutlocation:
   world: advRocketry/DIM1001
-  x: -508.9353361134082
-  y: 72.0
-  z: -103.99502836491499
-  yaw: 15.016859
-  pitch: -6.150037
+  x: -550.9475359165634
+  y: 65.0
+  z: -69.19562830740254
+  yaw: -307.64996
+  pitch: -6.150001
 afk: false
 money: '293.0'
 homes:
