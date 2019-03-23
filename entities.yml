@@ -18,11 +18,11 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-entity-passive-EntitySheep:
+    net-minecraft-entity-item-EntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityItem:
+    net-minecraft-entity-passive-EntitySheep:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

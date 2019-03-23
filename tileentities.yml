@@ -37,9 +37,6 @@ world-settings:
     mrtjp-projectred-illumination-TileLamp:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
@@ -47,9 +44,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-tank-TileTank:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
@@ -64,10 +58,16 @@ world-settings:
     matteroverdrive-tile-TileEntityGravitationalAnomaly:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp0:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
