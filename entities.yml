@@ -98,7 +98,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityBat:
+    cofh-thermalfoundation-entity-monster-EntityBlizz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -106,7 +106,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlizz:
+    net-minecraft-entity-passive-EntityBat:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
