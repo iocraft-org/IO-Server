@@ -108,23 +108,23 @@ world-settings:
     infinite-water-source: true
     entity-despawn-immediate: false
     worldgen-voltzengine-OreGenReplace: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-rftools-GenericWorldGenerator: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-advancedRocketry-OreGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-mo-MOWorldGen: true
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-advancedRocketry-OreGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-BigReactors-BRWorldGenerator: true
     worldgen-lightsabers-WorldGeneratorOres: true
     worldgen-lightsabers-WorldGeneratorStructures: true
     worldgen-dldungeonsjdg-GenerationHandler: true
