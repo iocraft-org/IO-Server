@@ -1,0 +1,18 @@
+{
+  "modid": "DraconicEvolution",
+  "segments": [
+    {
+      "class": "com.brandon3055.draconicevolution.common.entity.EntityCustomDragon",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.brandon3055.draconicevolution.common.blocks.BlockContainerDE",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

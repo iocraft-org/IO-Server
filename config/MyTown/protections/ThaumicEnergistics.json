@@ -1,0 +1,19 @@
+{
+  "modid": "thaumicenergistics",
+  "segments": [
+    {
+      "class": "thaumicenergistics.common.items.ItemAEPart",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "meta": -1,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "thaumicenergistics.common.blocks.AbstractBlockAEWrenchable",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

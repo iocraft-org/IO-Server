@@ -1,0 +1,13 @@
+{
+  "modid": "EnderTech",
+  "segments": [
+    {
+      "class": "io.endertech.item.ItemExchanger",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 10
+    }
+  ]
+}

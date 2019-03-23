@@ -1,0 +1,15 @@
+# OnTime playerdata YML File
+# Author: Edge209
+
+##################################################
+# DO NOT CHANGE THE VERSION number for this file #
+playerDataVersion: 6
+##################################################
+#
+players:
+#
+TodayDate: 0
+#
+WeekStartDate: 0
+#
+MonthStartDate: 0

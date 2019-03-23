@@ -1,0 +1,89 @@
+############################################################
+# +======================================================+ #
+# |         AdvancedHelp ~ Plugin By Cmaaxx              | #
+# +======================================================+ #
+############################################################
+
+# The format of the timing system
+# dd = day | MM = month | yyyy = year | HH = hour | mm = minute | ss = second
+dateFormat: "HH:mm:ss dd=MM=yyyy"
+prefix: "&8[&7WA&8]"
+checkUpdates: false
+
+# AdvancedHelp pages. /help.
+# Recommend using 6 lines per page but you can use as many as you want! 
+AdvancedHelpPages:
+  1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f/help towns = &7Town Help, Information and Commands"
+    - "  &f/help chat = &7Chat Help, Information and Commands"
+    - "  &f/help misc = &7Misc Help, Information and Commands"
+    - "  &f/help eco = &7Economy Help, Information and Commands"
+    - "  &f/help kits = &7Kits Help, Information and Commands"
+    - "  &f/help vote = &7Vote Help, Information and Commands"    
+    - "&8&m======================================="
+AdvancedHelpCategories:
+  default: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f/help towns = &7Town Help, Information and Commands"
+    - "  &f/help chat = &7Chat Help, Information and Commands"
+    - "  &f/help misc = &7Misc Help, Information and Commands"
+    - "  &f/help eco = &7Economy Help, Information and Commands"
+    - "  &f/help kits = &7Kits Help, Information and Commands"
+    - "  &f/help vote = &7Vote Help, Information and Commands"    
+    - "&8&m======================================="
+  towns: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LTOWNS and PROTECTION&r"
+    - "  &f/town new = &7Create a New Town"
+    - "  &f/town claim = &7Claim an Additional Chunk"
+    - "  &f/town bank deposit X = &7Deposit X Credits into Town Bank"
+    - "  &f/town perm set mobs false = &7Disables Mobs in your Town"
+    - "  &f/town perm set entry false = &7Members Only"    
+    - "  &f/town help = &7More Help"    
+    - "&8&m======================================="
+  chat: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LCHAT and MESSAGING&r"    
+    - "  &f/ch [channelName] = &7Joins a Channel"
+    - "  &f/ch create [channelName] = &7Creates a new Channel"
+    - "  &f/ch help = &7More Help"
+    - "&8&m======================================="
+  misc: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LMISCELLANEOUS&r"
+    - "  &f/random = &7Brings up the Random Teleport GUI"
+    - "  &f/spawn = &7Takes you to the Server Spawn"
+    - "  &f/kits = &7List all Available Kits"
+    - "&8&m======================================="
+  eco: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LECONOMY, TRADING and VOTING&r"
+    - "  &f/pay [playerName] X = &7Pay a Player X Credits"
+    - "  &f/sell = &7Sell Item in Hand to the Server Market"
+    - "  &f/wallet = &7Get your Personal Balance"
+    - "&8&m======================================="
+  kits: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LKITS&r"
+    - "  &fComing soon!"
+    - "&8&m======================================="
+  vote: 
+    Default: true
+    1:
+    - "&8&m=========== &7&L ioCraft.org Help &8&m============="
+    - "  &f&LKITS&r"
+    - "  &fComing soon!"
+    - "&8&m======================================="

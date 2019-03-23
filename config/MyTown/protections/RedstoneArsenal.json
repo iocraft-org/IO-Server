@@ -1,0 +1,19 @@
+{
+  "modid": "RedstoneArsenal",
+  "segments": [
+    {
+      "class": "cofh.redstonearsenal.item.tool.ItemWrenchRF",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "cofh.redstonearsenal.item.tool.ItemWrenchBattleRF",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}

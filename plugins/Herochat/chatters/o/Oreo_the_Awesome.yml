@@ -1,0 +1,7 @@
+name: Oreo_the_Awesome
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

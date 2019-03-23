@@ -1,0 +1,270 @@
+{
+  "modid": "Minecraft",
+  "segments": [
+    {
+      "class": "net.minecraft.block.BlockButton",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+      "clientUpdate": {
+        "coords": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "class": "net.minecraft.block.BlockLever",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockFenceGate",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockDragonEgg",
+      "type": "block",
+      "actions": "ANY_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockCake",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockTrapDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockJukebox",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneRepeater",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneComparator",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockAnvil",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockCauldron",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockContainer",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockBed",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.entity.monster.IMob",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "net.minecraft.entity.EntityAgeable",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "priority": "LOW"
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityHorse",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152119_ch",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityOcelot",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "net.minecraft.entity.passive.EntityWolf",
+      "type": "entity",
+      "actions": [ "PVP", "PROTECT" ],
+      "flags": "PVE",
+      "owner": [
+        {
+          "element": "func_152113_b",
+          "type": "METHOD"
+        }
+      ]
+    },
+    {
+      "class": "net.minecraft.entity.monster.EntityCreeper",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "condition": "fuse == 1",
+      "fuse": [
+        {
+          "element": "func_70832_p",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityTNTPrimed",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "field_94084_b",
+          "type": "FIELD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityMinecartTNT",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "range": 15
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityItemFrame",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "PVE"
+    },
+    {
+      "class": "net.minecraft.item.ItemMonsterPlacer",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": true,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemBucket",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 8
+    },
+    {
+      "class": "net.minecraft.item.ItemShears",
+      "type": "item",
+      "actions": "RIGHT_CLICK_ENTITY",
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemDye",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK"],
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemHangingEntity",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityMinecart",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.item.ItemLead",
+      "type": "item",
+      "actions": ["RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK"],
+      "isAdjacent": false,
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.EntityLeashKnot",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "USAGE"
+    },
+    {
+      "class": "net.minecraft.entity.projectile.EntityArrow",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "PVE",
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.projectile.EntitySmallFireball",
+      "type": "entity",
+      "actions": "IMPACT",
+      "flags": [ "PVE", "PVP", "MODIFY" ]
+    }
+  ]
+}

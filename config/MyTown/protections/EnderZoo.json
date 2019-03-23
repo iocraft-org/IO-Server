@@ -1,0 +1,11 @@
+{
+  "modid": "EnderZoo",
+  "segments": [
+    {
+      "class": "crazypants.enderzoo.entity.EntityFallenMount",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    }
+  ]
+}

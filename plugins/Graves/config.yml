@@ -1,0 +1,23 @@
+Graves:
+  Known-Player:
+    Stats: true
+    Killer: false
+    LifeSpan: 1500
+    Item: CHEST
+    Message: 1
+  Unknown-Player:
+    Use: true
+    LifeSpan: 1500
+    Item: ROTTEN_FLESH
+  SaveInv: true
+Permission:
+  Reload: Graves.GR
+  Graves: Graves.Use
+  Config: Graves.GC
+Secret-Cookies: true
+Physical-Grave:
+  Enable: false
+  Item: JACK_O_LANTERN
+  Sounds:
+    Create: AMBIENCE_THUNDER
+    Clicked: LEVEL_UP

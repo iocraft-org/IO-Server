@@ -1,0 +1,15 @@
+{
+  "group": "VIP",
+  "location": {
+    "world": "Universe",
+    "x": -279.4833919698341,
+    "y": 67.0,
+    "z": -137.7919560852788,
+    "yaw": -0.0017700195,
+    "pitch": 6.000042
+  },
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}

@@ -1,0 +1,111 @@
+{
+  "modid": "AWWayofTime",
+  "segments": [
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.SigilLava",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.SigilWater",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.sigil.SigilBloodLight",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundPickaxe",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundShovel",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.BoundAxe",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.items.EnergyItems",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": "USAGE",
+      "range": 16
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityEnergyBazookaSecondaryProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.MudProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EntityBloodLightProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "WayofTime.alchemicalWizardry.common.entity.projectile.EnergyBlastProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "shootingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "modid": "Forge",
+  "segments": [
+    {
+      "class": "net.minecraftforge.fluids.ItemFluidContainer",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 8
+    }
+  ]
+}

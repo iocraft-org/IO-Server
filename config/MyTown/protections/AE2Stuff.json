@@ -1,0 +1,26 @@
+{
+  "modid": "ae2stuff",
+  "segments": [
+    {
+      "class": "net.bdew.lib.block.SimpleBlock",
+      "type": "block",
+      "actions": [ "RIGHT_CLICK", "LEFT_CLICK" ],
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.ae2stuff.items.ItemWirelessKit",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "net.bdew.ae2stuff.items.visualiser.ItemVisualiser",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "ACCESS"
+    },
+  ]
+}

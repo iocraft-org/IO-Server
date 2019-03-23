@@ -1,0 +1,11 @@
+[
+  {
+    "name": "default",
+    "permissions": [
+      "cmd.*",
+      "mytown.cmd",
+      "mytown.cmd.outsider.*"
+    ],
+    "meta": {}
+  }
+]

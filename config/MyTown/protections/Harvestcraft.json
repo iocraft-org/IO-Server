@@ -1,0 +1,47 @@
+{
+  "modid": "harvestcraft",
+  "segments": [
+    {
+      "class": "com.pam.harvestcraft.BlockPamCrop",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.pam.harvestcraft.BlockPamFruit",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.pam.harvestcraft.BlockPamNormalGarden",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.pam.harvestcraft.BlockPamDesertGarden",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.pam.harvestcraft.BlockPamMushroomGarden",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.pam.harvestcraft.BlockPamWaterGarden",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

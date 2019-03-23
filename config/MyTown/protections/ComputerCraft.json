@@ -1,0 +1,18 @@
+{
+  "modid": "ComputerCraft",
+  "segments": [
+    {
+      "class": "dan200.computercraft.shared.turtle.blocks.TileTurtle",
+      "type": "tileEntity",
+      "retainsOwner": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "dan200.computercraft.shared.common.BlockGeneric",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

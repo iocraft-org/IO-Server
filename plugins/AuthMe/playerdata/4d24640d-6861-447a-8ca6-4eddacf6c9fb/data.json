@@ -1,0 +1,15 @@
+{
+  "group": "GM",
+  "location": {
+    "world": "Universe",
+    "x": -1030.3968309197585,
+    "y": 63.0,
+    "z": -751.0276284501301,
+    "yaw": -163.25938,
+    "pitch": 11.700151
+  },
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}

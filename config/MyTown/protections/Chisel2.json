@@ -1,0 +1,52 @@
+{
+  "modid": "chisel",
+  "name": "Chisel 2",
+  "segments": [
+    {
+      "class": "com.cricketcraft.chisel.item.chisel.ItemChisel",
+      "type": "item",
+      "actions": "LEFT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "com.cricketcraft.chisel.entity.EntityBallOMoss",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "com.cricketcraft.chisel.entity.EntityCloudInABottle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "com.cricketcraft.chisel.entity.EntitySmashingRock",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    }
+  ]
+}

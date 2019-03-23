@@ -1,0 +1,57 @@
+DisabledInWorlds:
+  enabled: false
+  worlds:
+  - myworld_1
+  - myworld_2
+SignFormat:
+- '&7[&aRandomTP&7]'
+- '&2Blocks: %distance%'
+- '&cPrice: %price%'
+- '&a(Click here)'
+SpawnBoatsInWater: false
+Inventory:
+  Rows: 3
+  MenuName: '&7Select &7Distance'
+  Items:
+    '0':
+      id: '322'
+      slot: 11
+      name: '&8[&a+&8] &aBasic &8[&a+&8]'
+      cost: 0
+      distance: 250
+      world: Universe
+      cooldown: 60
+      permission: randomtp.use.user
+      lore:
+      - '&b- &6Teleport distance: %distance% blocks'
+      - '&b- &6Cost: $%cost%'
+      - '&b- &6Cooldown of 60 seconds'
+      - '&b- &aClick here to use!'
+    '1':
+      id: '322'
+      slot: 13
+      name: '&8[&a+&8] &aAir Jordan &8[&a+&8]'
+      cost: 2
+      distance: 500
+      world: Universe
+      cooldown: 60
+      permission: randomtp.use.user
+      lore:
+      - '&b- &6Teleport distance: %distance% blocks'
+      - '&b- &6Cost: $%cost%'
+      - '&b- &6Cooldown of 60 seconds'
+      - '&b- &aClick here to use!'
+    '2':
+      id: '322:1'
+      slot: 15
+      name: '&8[&a+&8] &aNeil Armstrong &8[&a+&8]'
+      cost: 5
+      distance: 1000
+      world: Universe
+      cooldown: 300
+      permission: randomtp.use.vip
+      lore:
+      - '&b- &6Teleport distance: %distance% blocks'
+      - '&b- &6Cost: $%cost%'
+      - '&b- &6Cooldown of 5 minutes'
+      - '&b- &aClick here to use!'
