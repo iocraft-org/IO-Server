@@ -4,11 +4,11 @@
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>1</gravitationalMultiplier>
 			<orbitalDistance>100</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
-			<gravitationalMultiplier>1</gravitationalMultiplier>
 			<rotationalPeriod>24000</rotationalPeriod>
-			<biomeIds>96</biomeIds>
+			<atmosphereDensity>100</atmosphereDensity>
 			<planet name="Luna" DIMID="1001">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
@@ -99,5 +99,5 @@
 				<biomeIds>24,2,163,155,21</biomeIds>
 			</planet>
 		</planet>
-	</star>	
+	</star>
 </galaxy>
