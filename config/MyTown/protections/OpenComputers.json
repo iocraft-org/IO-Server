@@ -1,0 +1,18 @@
+{
+  "modid": "OpenComputers",
+  "segments": [
+    {
+      "class": "li.cil.oc.common.tileentity.Robot",
+      "type": "tileEntity",
+      "retainsOwner": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "li.cil.oc.common.block.SimpleBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

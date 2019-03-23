@@ -1,0 +1,14 @@
+name: Staff
+nick: Staff
+format: '&8@Staff &r{prefix}{sender}&r: &7{msg}'
+password: ''
+color: WHITE
+distance: 0
+shortcut: false
+verbose: true
+crossworld: true
+muted: false
+worlds: []
+bans: []
+mutes: []
+moderators: []

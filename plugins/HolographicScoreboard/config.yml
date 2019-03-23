@@ -1,0 +1,19 @@
+boards:
+  SpawnTPS:
+    command: tps
+    interval: 1m
+    sender: console
+    location:
+      world: Universe
+      x: -1286.4885332730464
+      y: 73.27867770852033
+      z: 1085.3673424654369
+  SpawnHelp:
+    command: help
+    interval: 1m
+    sender: console
+    location:
+      world: Universe
+      x: -1286.4567863137358
+      y: 75.87180123757294
+      z: 1085.4023166482245

@@ -1,0 +1,73 @@
+{
+  "modid": "arsmagica2",
+  "segments": [
+    {
+      "class": "am2.items.SpellBase",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": [ "MODIFY", "USAGE" ],
+      "range": 10
+    },
+    {
+      "class": "am2.items.ItemSpellBook",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": false,
+      "flags": [ "MODIFY", "USAGE" ],
+      "range": 10
+    },
+    {
+      "class": "am2.entities.EntitySpellEffect",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "dummycaster",
+          "type": "FIELD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntitySpellProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "getShootingEntity",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntityThrownRock",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "throwingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "am2.entities.EntityThrownSickle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "PVP",
+      "owner": [
+        {
+          "element": "throwingEntity",
+          "type": "FIELD"
+        }
+      ],
+      "range": 15
+    }
+  ]
+}

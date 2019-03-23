@@ -1,0 +1,55 @@
+# BetterRTP plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
+# Please give me credit, I'm a first time coder, and would love to see more discussions on my Spigot page! #
+
+Language-File: en.yml
+Settings:
+  DontRequirePermission: false
+  RespectWorldGuard: false
+  RespectGriefPrevention: false
+  RespectSavageFactions: false
+  MinRadius: 100
+  MaxAttempts: 15
+  Cooldown:
+    Enabled: true
+    Time: 10
+  Delay:
+    Time: 5
+    CancelOnMove: true
+  DisableUpdater: true
+Default:
+  UseWorldBorder: true
+  Biomes: []
+  MaxRadius: 1000
+  MinRadius: 10
+  CenterX: 0
+  CenterZ: 0
+BlacklistedBlocks:
+- stationary_water
+- stationary_lava
+- water
+- lava
+- cactus
+- leaves
+- leaves_2
+- air
+DisabledWorlds:
+- world_nether
+- creative
+CustomWorlds:
+  world:
+    UseWorldBorder: false
+    MaxRadius: 1000
+    MinRadius: 100
+    CenterX: 0
+    CenterZ: 0
+  nether:
+    MaxRadius: 1000
+    MinRadius: 100
+    CenterX: 123
+    CenterZ: -123
+    Biomes:
+    - desert
+    - forest
+Override:
+  world_nether: world
+  creative: world

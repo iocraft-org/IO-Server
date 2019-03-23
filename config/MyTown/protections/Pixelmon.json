@@ -1,0 +1,12 @@
+{
+  "modid": "pixelmon",
+  "segments": [
+    {
+      "class": "com.pixelmonmod.pixelmon.blocks.apricornTrees.BlockApricornTree",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

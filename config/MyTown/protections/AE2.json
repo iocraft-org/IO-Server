@@ -1,0 +1,70 @@
+{
+  "modid": "appliedenergistics2-core",
+  "segments": [
+    {
+      "class": "appeng.block.AEBaseBlock",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "appeng.tile.networking.TileCableBus",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "appeng.items.tools.quartz.ToolQuartzWrench",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "appeng.items.tools.ToolNetworkTool",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": [ "USAGE", "ACCESS", "MODIFY" ],
+      "range": 16
+    },
+    {
+      "class": "appeng.items.AEBaseItem",
+      "type": "item",
+      "actions": "ANY_CLICK",
+      "isAdjacent": false,
+      "flags": [ "USAGE", "ACCESS", "MODIFY" ]
+    },
+    {
+      "class": "appeng.items.parts.ItemMultiPart",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "appeng.items.tools.powered.ToolMassCannon",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "MODIFY",
+      "range": 32
+    },
+    {
+      "class": "appeng.items.tools.powered.ToolEntropyManipulator",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "appeng.items.tools.powered.ToolColorApplicator",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+server:
+  enable: true
+automatic_payments: false
+enable_cut: true
+cut_amount: 0.05
+enable_metrics: true
+max_price: 0.0
+creation_fee: 0.0
+queue:
+  trade_time: 0
+  mail_time: 0
+  queue_mail_on_buy: true
+  queue_on_cancel: true
+max_listings_per_player: 0
+expire_time: 168
+price_check:
+  enable: true
+infinite:
+  seller: IO CORP
+  account: ''
+notify_on_update: true
+blacklist:
+  item_name:
+  - Transaction Log
+  - Market History
+  item_id:
+    '0': 0
+  enchant_id: []
+  enchant_lore: []
+  use_with_mail: false

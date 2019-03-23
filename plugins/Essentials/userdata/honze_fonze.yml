@@ -1,0 +1,16 @@
+uuid: 12d98478-8b1c-44db-a40a-cdade4657c94
+timestamps:
+  login: 1543786258868
+  kits:
+    starter: 1543786370126
+  logout: 1543786791505
+ipAddress: 99.237.203.25
+geolocation: Canada
+money: '280.0'
+logoutlocation:
+  world: Universe
+  x: -460.1559071036029
+  y: 72.0
+  z: 274.5940925236847
+  yaw: 5.244385
+  pitch: 16.950016

@@ -1,0 +1,29 @@
+geolocation: Germany
+uuid: 4d24640d-6861-447a-8ca6-4eddacf6c9fb
+timestamps:
+  login: 1544041420707
+  lastteleport: 1544042159000
+  logout: 1544042371670
+ipAddress: 92.117.42.208
+lastlocation:
+  world: Universe
+  x: -1286.5
+  y: 71.5
+  z: 1079.5
+  yaw: -0.6927062
+  pitch: 5.2252927
+homes:
+  home:
+    world: Universe
+    x: -1038.5
+    y: 114.0
+    z: -665.5
+    yaw: -0.9592285
+    pitch: 72.6002
+logoutlocation:
+  world: Universe
+  x: -1030.3968309197585
+  y: 63.0
+  z: -751.0276284501301
+  yaw: -163.25938
+  pitch: 11.700151

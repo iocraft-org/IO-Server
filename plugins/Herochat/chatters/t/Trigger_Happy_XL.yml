@@ -1,0 +1,7 @@
+name: Trigger_Happy_XL
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false

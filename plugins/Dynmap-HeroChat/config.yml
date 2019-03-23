@@ -1,0 +1,10 @@
+# Dynmap-HeroChat configuration
+web-to-channel: Global
+channel-to-web-list:
+- Global
+- General
+- Random
+- NSFW
+- Music
+- Other
+webmsgformat: '&color;2[MAP]%playername%: &color;f%message%'

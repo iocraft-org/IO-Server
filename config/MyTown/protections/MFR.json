@@ -1,0 +1,58 @@
+{
+  "modid": "MineFactoryReloaded",
+  "segments": [
+    {
+      "class": "powercrystals.minefactoryreloaded.block.BlockFactory",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntityRocket",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntityNeedle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "_owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.entity.EntitySafariNet",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}

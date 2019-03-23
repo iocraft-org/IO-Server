@@ -1,0 +1,12 @@
+{
+  "modid": "ProjRed|Core",
+  "segments": [
+    {
+      "class": "mrtjp.projectred.core.ItemScrewdriver",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    }
+  ]
+}

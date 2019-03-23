@@ -1,0 +1,19 @@
+{
+  "modid": "gregtech_addon",
+  "segments": [
+    {
+      "class": "gregtech.common.tools.GT_Tool",
+      "type": "item",
+      "actions": [ "LEFT_CLICK_BLOCK", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "gregtech.common.blocks.GT_Block_Machines",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

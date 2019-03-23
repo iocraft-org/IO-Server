@@ -1,0 +1,48 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                    exampleConfig                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The format of the timing system
+# dd = day | MM = month | yyyy = year | HH = hour | mm = minute | ss = second
+dateFormat: "HH:mm:ss dd-MM-yyyy"
+prefix: "&7[&6AdvancedHelp&7]"
+checkUpdates: true
+
+MOTD:
+  enabled: true
+  style: 1
+
+AdvancedHelpPages:
+  1:
+    - "&d&m---&6 Advanced&dHelp &d&m---"
+    - "  &6/help factions - &fShows faction help &ocategory&f!"
+    - "  &6/help 2 - &fOpen &osecond &fhelp page."
+    - "  &6/spawn - &fTeleports you to spawn"
+    - "  &6/home - &fBrings you home"
+    - "  &6/pay <user> <amount> - &fPay users"
+  2:
+    - "&d&m---&6 Advanced&dHelp &d&m---"
+    - "  &6/website -&f Opens our website info!"
+    - "  &6/info - &fOpens server info!"
+    - "  &6/donate - &fOpens donation info!"
+  3: 
+    - "add as many pages as you would like!"
+  4:
+    - "Hello %player%! The time is %time%"
+    
+AdvancedHelpCategories:
+  factions:
+    Default: true
+    1:
+      - "&e&m---&e Factions Help &e&m---"
+      - "  Put multiple line or pages!"
+      - "  &d&lAll &3&lcolor &c&lcodes &a&lwork&6! use &nO &oO &lO &rO &m0 &kO"
+    2:
+      - "&e&m---&e Factions Help Page2 &e&m---"
+      - " add as many pages as you need to categories as well!"
+  category2:
+    Default: false
+    1:
+      - "add in as many categories as you need!"

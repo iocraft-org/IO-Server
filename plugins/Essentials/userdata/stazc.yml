@@ -1,0 +1,39 @@
+geolocation: Brazil
+uuid: 88838620-06d5-407a-9b0b-eb823e60e286
+timestamps:
+  login: 1543797908950
+  kits:
+    starter: 1543798788136
+  lastteleport: 1543801153622
+  logout: 1543801380286
+ipAddress: 177.75.63.99
+money: '280.0'
+homes:
+  base:
+    world: Universe
+    x: -938.9847614006219
+    y: 63.0
+    z: 355.67114431120183
+    yaw: -58.049675
+    pitch: 39.150032
+  hav:
+    world: Universe
+    x: -932.6661802269518
+    y: 11.0
+    z: 349.30000001192093
+    yaw: -355.05188
+    pitch: 70.35
+lastlocation:
+  world: Universe
+  x: -926.6528436331764
+  y: 11.0
+  z: 355.55371687750716
+  yaw: -221.86389
+  pitch: 25.350271
+logoutlocation:
+  world: Universe
+  x: -937.6851614785671
+  y: 64.5
+  z: 356.8401601179138
+  yaw: -234.59898
+  pitch: 23.249887
