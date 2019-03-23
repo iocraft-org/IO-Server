@@ -31,6 +31,9 @@ world-settings:
     matteroverdrive-tile-TileEntityGravitationalAnomaly:
       tick-no-players: false
       tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
@@ -65,9 +68,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileEscritoire:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
