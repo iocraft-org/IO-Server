@@ -14,9 +14,6 @@ snapshots-server/*
 dynmap/web/tiles/*
 dynmap/web/tiles
 *.dump
-world.spawn
-world.spawn/
-*.log
 ops.json
 usercache.json
 usernamecache.json
@@ -89,5 +86,5 @@ plugins/luckperms/luckperms.conf
 plugins/pjp/pjp.conf
 server.properties
 index.php
-world
-world/*
+Alpha/
+Alpha/*
