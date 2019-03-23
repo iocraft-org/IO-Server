@@ -11,14 +11,17 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
+  bungeecord: false
+  late-bind: false
+  sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  late-bind: false
-  sample-count: 12
-  bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
 messages:
@@ -28,19 +31,12 @@ messages:
   server-full: The ioCraft.org Server is full, consider VIP!
   outdated-client: Outdated ioCraft.org client! Please use {}
   outdated-server: Outdated ioCraft.org server! I'm still on {}
-commands:
-  log: true
-  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    mob-spawn-range: 4
     max-bulk-chunks: 5
     max-entity-collisions: 8
     max-tick-time:
@@ -67,6 +63,10 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    mob-spawn-range: 4
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -91,11 +91,11 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-structure-info: true
-    enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
-    item-despawn-rate: 6000
-    zombie-aggressive-towards-villager: true
-    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
+    enable-zombie-pigmen-portal-spawns: true
     use-async-lighting: false
+    view-distance: 10
+    item-despawn-rate: 6000
+    zombie-aggressive-towards-villager: true
