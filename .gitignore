@@ -88,3 +88,4 @@ server.properties
 index.php
 Alpha/
 Alpha/*
+plugins/NodeBBIntegration/config.yml
