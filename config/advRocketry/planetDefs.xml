@@ -1,5 +1,15 @@
 <galaxy>
 	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
+		<planet name="Earth" DIMID="0" dimMapping="">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>1</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+		</planet>
 		<planet name="Alpha" DIMID="1001" dimMapping="">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
@@ -21,7 +31,7 @@
 				<atmosphereDensity>0</atmosphereDensity>
 				<biomeIds>95</biomeIds>
 			</planet>
-		</planet>
+		</planet>		
 		<planet name="Thesulia Prime" DIMID="1003">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
