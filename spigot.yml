@@ -37,24 +37,13 @@ stats:
 world-settings:
   default:
     verbose: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
-    entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
+    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -84,17 +73,28 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
-    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
+    entity-activation-range:
+      animals: 32
+      monsters: 32
+      misc: 16
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
-    item-despawn-rate: 6000
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
