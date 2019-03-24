@@ -12,15 +12,15 @@
 
 config-version: 7
 settings:
+  netty-threads: -1
+  sample-count: 12
+  late-bind: false
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  netty-threads: -1
-  late-bind: false
   bungeecord: false
-  sample-count: 12
-  fullMatchRate: 10
   player-shuffle: 0
+  fullMatchRate: 10
 messages:
   restart: ioCraft.org Server is Restarting!
   whitelist: You are not whitelisted on ioCraft.org!
@@ -37,13 +37,6 @@ stats:
 world-settings:
   default:
     verbose: false
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
-    mob-spawn-range: 4
     merge-radius:
       item: 2.5
       exp: 3.0
@@ -91,11 +84,18 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-structure-info: true
-    zombie-aggressive-towards-villager: true
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
+    mob-spawn-range: 4
     item-despawn-rate: 6000
-    view-distance: 10
-    enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
     clear-tick-list: false
+    view-distance: 10
     use-async-lighting: false
