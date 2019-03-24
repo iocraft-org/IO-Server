@@ -18,7 +18,27 @@ debug:
 config-version: 1
 world-settings:
   default:
+    net-minecraft-entity-passive-EntityVillager:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityPainting:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-entity-EntityRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -42,14 +62,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityPainting:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-entity-EntityRocket:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
@@ -67,14 +79,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityMinecartChest:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -103,10 +107,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     cofh-thermalfoundation-entity-monster-EntityBlitz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityVillager:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
