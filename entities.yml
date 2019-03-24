@@ -22,15 +22,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityItem:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-passive-EntitySheep:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-passive-EntityChicken:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -42,19 +42,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-item-EntityPainting:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     zmaster587-advancedRocketry-entity-EntityRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -70,19 +66,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityCreeper:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityZombie:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntitySkeleton:
+    net-minecraft-entity-item-EntityMinecartChest:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -90,11 +74,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityMinecartChest:
+    net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -102,7 +90,19 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-monster-EntityCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     cofh-thermalfoundation-entity-monster-EntityBasalz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
