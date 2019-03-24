@@ -22,16 +22,76 @@ debug:
 config-version: 1
 world-settings:
   default:
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityTritaniumCrate:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityInscriber:
+      tick-no-players: false
+      tick-interval: 1
+    mcjty-rftools-blocks-logic-SequencerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    org-blockartistry-mod-ThermalRecycling-machines-entity-VendingTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileApiary:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileEscritoire:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityGravitationalAnomaly:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityWeaponStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineStarMap:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkSwitch:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineChargingStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityAndroidStation:
       tick-no-players: false
       tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
@@ -59,9 +119,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp2:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityAlarm:
@@ -124,12 +181,6 @@ world-settings:
     zmaster587-advancedRocketry-tile-station-TileStationGravityController:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityTritaniumCrate:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
       tick-no-players: false
       tick-interval: 1
@@ -139,22 +190,7 @@ world-settings:
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkSwitch:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-apiculture-tiles-TileApiary:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-core-tiles-TileEscritoire:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp0:
@@ -172,28 +208,10 @@ world-settings:
     zmaster587-advancedRocketry-tile-TileStationBuilder:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineChargingStation:
-      tick-no-players: false
-      tick-interval: 1
     zmaster587-advancedRocketry-tile-infrastructure-TileEntityFuelingStation:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityWeaponStation:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineStarMap:
-      tick-no-players: false
-      tick-interval: 1
     TileMultipartcmp5:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityAndroidStation:
-      tick-no-players: false
-      tick-interval: 1
-    mcjty-rftools-blocks-logic-SequencerTileEntity:
       tick-no-players: false
       tick-interval: 1
     net-blay09-mods-cookingbook-block-TileEntitySink:
@@ -277,19 +295,10 @@ world-settings:
     fiskfille-lightsabers-common-tileentity-TileEntityCrystal:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityInscriber:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
-    org-blockartistry-mod-ThermalRecycling-machines-entity-VendingTileEntity:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityBoundingBox:
