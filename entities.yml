@@ -62,6 +62,18 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-item-EntityPainting:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-entity-EntityRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-player-EntityPlayerMP:
       tick-no-players: false
       never-ever-tick: false
@@ -110,10 +122,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    zmaster587-advancedRocketry-entity-EntityRocket:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     tconstruct-world-entity-BlueSlime:
       tick-no-players: false
       never-ever-tick: false
@@ -143,14 +151,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityXPOrb:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityWolf:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityPainting:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

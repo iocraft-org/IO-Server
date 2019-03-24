@@ -22,6 +22,24 @@ debug:
 config-version: 1
 world-settings:
   default:
+    crazypants-enderio-conduit-TileConduitBundle:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-wireless-TileWirelessCharger:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-oxygen-TileOxygenVent:
+      tick-no-players: false
+      tick-interval: 1
+    mrtjp-projectred-illumination-TileLamp:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-painter-TileEntityPainter:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-tank-TileTank:
+      tick-no-players: false
+      tick-interval: 1
     net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
@@ -82,6 +100,48 @@ world-settings:
     matteroverdrive-tile-TileEntityAndroidStation:
       tick-no-players: false
       tick-interval: 1
+    zmaster587-advancedRocketry-tile-TileForceFieldProjector:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-multiblock-TileSpaceLaser:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp2:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityAlarm:
+      tick-no-players: false
+      tick-interval: 1
+    codechicken-chunkloader-TileChunkLoader:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-TileRocketBuilder:
+      tick-no-players: false
+      tick-interval: 1
+    net-bdew-ae2stuff-machines-wireless-TileWireless:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp4:
+      tick-no-players: false
+      tick-interval: 1
+    li-cil-oc-common-tileentity-Case:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-station-TileWarpShipMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-station-TileStationOrientationControl:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-station-TileStationAltitudeController:
+      tick-no-players: false
+      tick-interval: 1
+    zmaster587-advancedRocketry-tile-station-TileStationGravityController:
+      tick-no-players: false
+      tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
@@ -89,12 +149,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     zmaster587-advancedRocketry-tile-TileStationBuilder:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-TileRocketBuilder:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
@@ -121,43 +175,7 @@ world-settings:
     cofh-thermalexpansion-block-machine-TileFurnace:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-machine-wireless-TileWirelessCharger:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-oxygen-TileOxygenVent:
-      tick-no-players: false
-      tick-interval: 1
-    mrtjp-projectred-illumination-TileLamp:
-      tick-no-players: false
-      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-painter-TileEntityPainter:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-tank-TileTank:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp2:
-      tick-no-players: false
-      tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityAlarm:
-      tick-no-players: false
-      tick-interval: 1
-    codechicken-chunkloader-TileChunkLoader:
-      tick-no-players: false
-      tick-interval: 1
-    net-bdew-ae2stuff-machines-wireless-TileWireless:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-TileForceFieldProjector:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-multiblock-TileSpaceLaser:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
       tick-no-players: false
       tick-interval: 1
     li-cil-oc-common-tileentity-Screen:
@@ -166,19 +184,10 @@ world-settings:
     li-cil-oc-common-tileentity-PowerConverter:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp4:
-      tick-no-players: false
-      tick-interval: 1
-    li-cil-oc-common-tileentity-Case:
-      tick-no-players: false
-      tick-interval: 1
     dan200-computercraft-shared-computer-blocks-TileComputer:
       tick-no-players: false
       tick-interval: 1
     net-blay09-mods-cookingbook-block-TileEntityToaster:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-station-TileWarpShipMonitor:
       tick-no-players: false
       tick-interval: 1
     net-blay09-mods-cookingbook-block-TileEntityFridge:
@@ -188,15 +197,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-station-TileStationOrientationControl:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-station-TileStationAltitudeController:
-      tick-no-players: false
-      tick-interval: 1
-    zmaster587-advancedRocketry-tile-station-TileStationGravityController:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
