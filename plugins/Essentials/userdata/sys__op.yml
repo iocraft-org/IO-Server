@@ -1,17 +1,17 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553390659812
-  logout: 1553389992755
+  login: 1553392245433
+  logout: 1553392248544
   lastteleport: 1553391187843
 ipAddress: 75.129.254.61
 afk: false
 logoutlocation:
-  world: advRocketry/DIM1002
-  x: 16.0
-  y: 65.0
-  z: 523.0
-  yaw: -150.90001
-  pitch: -39.300003
+  world: world
+  x: 28.5
+  y: 64.0
+  z: 864.5
+  yaw: -35.54956
+  pitch: 13.650033
 lastlocation:
   world: advRocketry/DIM1001
   x: 16.0
