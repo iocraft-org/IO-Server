@@ -1,7 +1,7 @@
 <galaxy>
-	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
-		<planet name="Earth" DIMID="0" dimMapping="">
-			<isKnown>false</isKnown>
+	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="3" numGasGiants="0">
+		<planet name="Overworld" DIMID="0" dimMapping="">
+			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>1</gravitationalMultiplier>
@@ -10,7 +10,7 @@
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
 		</planet>
-		<planet name="Alpha" DIMID="1001" dimMapping="">
+		<planet name="Alpha" DIMID="1001">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
@@ -66,7 +66,7 @@
 			</planet>
 		</planet>
 	</star>
-	<star name="Octavia" temp="50" x="150" y="150" size="2.0" numPlanets="0" numGasGiants="0">
+	<star name="Octavia" temp="50" x="150" y="150" size="2.0" numPlanets="2" numGasGiants="0">
 		<planet name="Varus" DIMID="1008">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
