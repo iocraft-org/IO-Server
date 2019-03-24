@@ -15,10 +15,10 @@ settings:
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  late-bind: false
-  sample-count: 12
   netty-threads: -1
   bungeecord: false
+  late-bind: false
+  sample-count: 12
   fullMatchRate: 10
   player-shuffle: 0
 messages:
@@ -37,30 +37,7 @@ stats:
 world-settings:
   default:
     verbose: false
-    merge-radius:
-      item: 2.5
-      exp: 3.0
     mob-spawn-range: 4
-    anti-xray:
-      enabled: false
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -91,11 +68,34 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    item-despawn-rate: 6000
-    zombie-aggressive-towards-villager: true
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     arrow-despawn-rate: 1200
+    item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
+    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
     use-async-lighting: false
-    view-distance: 10
+    zombie-aggressive-towards-villager: true
