@@ -1,6 +1,6 @@
 <galaxy>
 	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
-		<planet name="Alpha" DIMID="1001">
+		<planet name="Alpha" DIMID="0" dimmapping="">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
