@@ -124,6 +124,15 @@ world-settings:
     zmaster587-advancedRocketry-tile-station-TileStationGravityController:
       tick-no-players: false
       tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrill:
+      tick-no-players: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrillPrecharger:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCellCreative:
+      tick-no-players: false
+      tick-interval: 1
     net-malisis-doors-door-tileentity-RustyHatchTileEntity:
       tick-no-players: false
       tick-interval: 1
@@ -197,9 +206,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     zmaster587-advancedRocketry-tile-TileStationBuilder:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
     zmaster587-advancedRocketry-tile-infrastructure-TileEntityFuelingStation:
