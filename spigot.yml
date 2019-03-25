@@ -12,13 +12,13 @@
 
 config-version: 7
 settings:
+  netty-threads: -1
   late-bind: false
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   bungeecord: false
-  netty-threads: -1
   player-shuffle: 0
   fullMatchRate: 10
 messages:
@@ -37,6 +37,11 @@ stats:
 world-settings:
   default:
     verbose: false
+    save-structure-info: true
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -76,11 +81,6 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    save-structure-info: true
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -91,10 +91,10 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    zombie-aggressive-towards-villager: true
     item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
