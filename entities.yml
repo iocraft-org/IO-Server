@@ -38,6 +38,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-monster-EntitySkeleton:
       tick-no-players: false
       never-ever-tick: false
@@ -47,10 +51,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-passive-EntitySheep:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityZombie:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
