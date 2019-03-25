@@ -103,6 +103,8 @@ groups:
     - essentials.sethome.multiple.vip
     - essentials.fly
     - essentials.fly.safelogin
+    - io.nightvision.player
+    - io.nightvision.use
   Mod:
     inheritance:
     - Citizen
