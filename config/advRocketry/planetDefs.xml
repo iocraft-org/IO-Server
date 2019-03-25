@@ -19,7 +19,7 @@
 				<orbitalPhi>0</orbitalPhi>
 				<rotationalPeriod>128000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>107,12</biomeIds>
+				<biomeIds>42,12</biomeIds>
 			</planet>
 		</planet>		
 		<planet name="Thesulia Prime" DIMID="1003">

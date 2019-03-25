@@ -1,7 +1,7 @@
 Graves:
   Known-Player:
     Stats: true
-    Killer: false
+    Killer: true
     LifeSpan: 1500
     Item: CHEST
     Message: 1
