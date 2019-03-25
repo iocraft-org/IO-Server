@@ -78,6 +78,76 @@
         "minecraft:log2"
       ]
     },
+    "crook": {
+      "name": "Crook",
+      "icon": "exnihilo:crook",
+      "toollist": [
+        "exnihilo:crook",
+        "exnihilo:crook_bone"
+      ],
+      "blocklist": [
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:tallgrass",
+        "minecraft:vine",
+        "minecraft:web",
+        "minecraft:wool"
+      ]
+    },
+    "hammer": {
+      "name": "Hammer",
+      "icon": "exnihilo:hammer_stone",
+      "toollist": [
+        "exnihilo:hammer_diamond",
+        "exnihilo:hammer_gold",
+        "exnihilo:hammer_iron",
+        "exnihilo:hammer_stone",
+        "exnihilo:hammer_wood"
+      ],
+      "blocklist": [
+        "exnihilo:aluminum_dust",
+        "exnihilo:aluminum_gravel",
+        "exnihilo:aluminum_sand",
+        "exnihilo:copper_dust",
+        "exnihilo:copper_gravel",
+        "exnihilo:copper_sand",
+        "exnihilo:dust",
+        "exnihilo:ender_lead_gravel",
+        "exnihilo:ender_platinum_gravel",
+        "exnihilo:ender_silver_gravel",
+        "exnihilo:ender_tin_gravel",
+        "exnihilo:exnihilo.gravel_ender",
+        "exnihilo:exnihilo.gravel_nether",
+        "exnihilo:gold_dust",
+        "exnihilo:gold_gravel",
+        "exnihilo:gold_sand",
+        "exnihilo:iron_dust",
+        "exnihilo:iron_gravel",
+        "exnihilo:iron_sand",
+        "exnihilo:lead_dust",
+        "exnihilo:lead_gravel",
+        "exnihilo:lead_sand",
+        "exnihilo:nether_copper_gravel",
+        "exnihilo:nether_gold_gravel",
+        "exnihilo:nether_iron_gravel",
+        "exnihilo:nether_nickel_gravel",
+        "exnihilo:nickel_dust",
+        "exnihilo:nickel_gravel",
+        "exnihilo:nickel_sand",
+        "exnihilo:platinum_dust",
+        "exnihilo:platinum_gravel",
+        "exnihilo:platinum_sand",
+        "exnihilo:silver_dust",
+        "exnihilo:silver_gravel",
+        "exnihilo:silver_sand",
+        "exnihilo:tin_dust",
+        "exnihilo:tin_gravel",
+        "exnihilo:tin_sand",
+        "minecraft:cobblestone",
+        "minecraft:gravel",
+        "minecraft:sand"
+      ]
+    },
     "hoe": {
       "name": "Hoe",
       "icon": "minecraft:diamond_hoe",
