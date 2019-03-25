@@ -1,0 +1,104 @@
+<galaxy>
+	<star name="Solaris" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
+		<planet name="Alpha" DIMID="1001">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>96,91</biomeIds>
+			<planet name="Luna" DIMID="1002">
+				<isKnown>true</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<orbitalDistance>150</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>128000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>42,107</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Thesulia Prime" DIMID="1003">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.7160353,0.69217515,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>117</orbitalDistance>
+			<orbitalPhi>-1</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>62</atmosphereDensity>
+			<biomeIds>27,132,2,38,29</biomeIds>
+			<planet name="Osirus" DIMID="1004">
+				<isKnown>true</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.18821323,0.82254326,1.0</skyColor>
+				<gravitationalMultiplier>85</gravitationalMultiplier>
+				<orbitalDistance>151</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<rotationalPeriod>39079</rotationalPeriod>
+				<atmosphereDensity>29</atmosphereDensity>
+				<biomeIds>24,2,163,155,21</biomeIds>
+			</planet>
+			<planet name="Theta" DIMID="1005">
+				<isKnown>true</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.16651207,0.7478919,1.0</skyColor>
+				<gravitationalMultiplier>52</gravitationalMultiplier>
+				<orbitalDistance>157</orbitalDistance>
+				<orbitalPhi>-1</orbitalPhi>
+				<rotationalPeriod>161206</rotationalPeriod>
+				<atmosphereDensity>37</atmosphereDensity>
+				<biomeIds>131,157,149,133,23</biomeIds>
+			</planet>
+		</planet>
+	</star>
+	<star name="Octavia" temp="50" x="150" y="150" size="2.0" numPlanets="0" numGasGiants="0">
+		<planet name="Varus" DIMID="1008">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>0.7160353,0.69217515,1.0</skyColor>
+			<gravitationalMultiplier>130</gravitationalMultiplier>
+			<orbitalDistance>117</orbitalDistance>
+			<orbitalPhi>-1</orbitalPhi>
+			<rotationalPeriod>10923</rotationalPeriod>
+			<atmosphereDensity>62</atmosphereDensity>
+			<biomeIds>27,132,2,38,29</biomeIds>
+			<planet name="Vitellius" DIMID="1009">
+				<isKnown>true</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>0.18821323,0.82254326,1.0</skyColor>
+				<gravitationalMultiplier>85</gravitationalMultiplier>
+				<orbitalDistance>151</orbitalDistance>
+				<orbitalPhi>-4</orbitalPhi>
+				<rotationalPeriod>39079</rotationalPeriod>
+				<atmosphereDensity>29</atmosphereDensity>
+				<biomeIds>24,2,163,155,21</biomeIds>
+			</planet>
+		</planet>
+		<planet name="Odysseus" DIMID="1006" dimMapping="">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="Galileo" DIMID="1007">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<orbitalDistance>150</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>128000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>110,119</biomeIds>
+			</planet>
+		</planet>
+	</star>
+</galaxy>
