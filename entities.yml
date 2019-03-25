@@ -86,11 +86,35 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
+    net-decimation-mod-common-entity-living-hostile-EntityHazmatSoldier:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityWitch:
+    net-decimation-mod-common-entity-living-natural-EntityBoar:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-natural-EntityDoggo:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-natural-EntityDeer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-natural-EntityHuman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-hostile-EntitySoldier:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-hostile-EntityBandit:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -98,15 +122,35 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBasalz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-hostile-EntityInfectedCrawler:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-passive-EntityBat:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityEnderman:
+    net-decimation-mod-common-entity-living-hostile-EntityInfected:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBasalz:
+    net-decimation-mod-common-entity-living-hostile-EntityInfectedDog:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-decimation-mod-common-entity-living-hostile-EntityInfectedHulk:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
