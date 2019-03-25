@@ -86,6 +86,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+<<<<<<< HEAD
     net-decimation-mod-common-entity-living-hostile-EntityHazmatSoldier:
       tick-no-players: false
       never-ever-tick: false
@@ -114,10 +115,13 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+=======
+>>>>>>> 5cfc2e801ded37659b055960bbb53718542db0af
     net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+<<<<<<< HEAD
     matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
       tick-no-players: false
       never-ever-tick: false
@@ -127,6 +131,13 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-decimation-mod-common-entity-living-hostile-EntityInfectedCrawler:
+=======
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+>>>>>>> 5cfc2e801ded37659b055960bbb53718542db0af
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -134,6 +145,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+<<<<<<< HEAD
     net-decimation-mod-common-entity-living-hostile-EntityInfected:
       tick-no-players: false
       never-ever-tick: false
@@ -151,6 +163,13 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntityEnderman:
+=======
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBasalz:
+>>>>>>> 5cfc2e801ded37659b055960bbb53718542db0af
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

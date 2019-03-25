@@ -107,6 +107,7 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
+<<<<<<< HEAD
     worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-voltzengine-OreGenReplace: true
     worldgen-ExtraUtilities-WorldGenEnderLillies: true
@@ -126,6 +127,27 @@ world-settings:
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
     worldgen-denseores-WorldGenOres: true
     worldgen-Techguns-OreGenerator: true
+=======
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-Techguns-OreGenerator: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-advancedRocketry-OreGenerator: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
+>>>>>>> 5cfc2e801ded37659b055960bbb53718542db0af
     worldgen-lightsabers-WorldGeneratorOres: true
     worldgen-lightsabers-WorldGeneratorStructures: true
     worldgen-dldungeonsjdg-GenerationHandler: true
