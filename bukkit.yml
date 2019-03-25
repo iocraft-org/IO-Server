@@ -73,3 +73,5 @@ world-settings:
     enabled: true
   endoftime:
     enabled: true
+  hoth:
+    enabled: true
