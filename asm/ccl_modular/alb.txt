@@ -1,0 +1,2193 @@
+// class version 50.0 (50)
+// access flags 0x21
+public class alb extends aji  {
+
+  // compiled from: BlockFire.java
+  // access flags 0x1008
+  static synthetic INNERCLASS alb$1 null null
+  // access flags 0xA
+  private static INNERCLASS alb$FireInfo alb FireInfo
+  // access flags 0x12
+  private final INNERCLASS alb$pXYZ alb pXYZ
+  // access flags 0x609
+  public static abstract INNERCLASS java/util/Map$Entry java/util/Map Entry
+
+  // DEPRECATED
+  // access flags 0x20002
+  private [I a
+  @Ljava/lang/Deprecated;()
+
+  // DEPRECATED
+  // access flags 0x20002
+  private [I b
+  @Ljava/lang/Deprecated;()
+
+  // access flags 0x1A
+  private final static Ljava/lang/String; __OBFID = "CL_00000245"
+
+  // access flags 0xA
+  // signature Ljava/util/WeakHashMap<Lahb;Ljava/util/HashMap<Lalb$pXYZ;Ljava/lang/Long;>;>;
+  // declaration: java.util.WeakHashMap<ahb, java.util.HashMap<alb$pXYZ, java.lang.Long>>
+  private static Ljava/util/WeakHashMap; failures
+
+  // access flags 0x2
+  // signature Ljava/util/IdentityHashMap<Laji;Lalb$FireInfo;>;
+  // declaration: java.util.IdentityHashMap<aji, alb$FireInfo>
+  private Ljava/util/IdentityHashMap; blockInfo
+
+  // access flags 0x4
+  protected <init>()V
+   L0
+    LINENUMBER 42 L0
+    ALOAD 0
+    GETSTATIC awt.o : Lawt;
+    INVOKESPECIAL aji.<init> (Lawt;)V
+   L1
+    LINENUMBER 32 L1
+    ALOAD 0
+    SIPUSH 4096
+    NEWARRAY T_INT
+    PUTFIELD alb.a : [I
+   L2
+    LINENUMBER 34 L2
+    ALOAD 0
+    SIPUSH 4096
+    NEWARRAY T_INT
+    PUTFIELD alb.b : [I
+   L3
+    LINENUMBER 498 L3
+    ALOAD 0
+    INVOKESTATIC com/google/common/collect/Maps.newIdentityHashMap ()Ljava/util/IdentityHashMap;
+    PUTFIELD alb.blockInfo : Ljava/util/IdentityHashMap;
+   L4
+    LINENUMBER 43 L4
+    ALOAD 0
+    ICONST_1
+    INVOKEVIRTUAL alb.a (Z)Laji;
+    POP
+   L5
+    LINENUMBER 44 L5
+    RETURN
+   L6
+    LOCALVARIABLE this Lalb; L0 L6 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x9
+  public static e()V
+   L0
+    LINENUMBER 48 L0
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.f : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L1
+    LINENUMBER 49 L1
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bw : Lalj;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L2
+    LINENUMBER 50 L2
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bx : Lalj;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L3
+    LINENUMBER 51 L3
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.aJ : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L4
+    LINENUMBER 52 L4
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.ad : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L5
+    LINENUMBER 53 L5
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bG : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L6
+    LINENUMBER 54 L6
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bF : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L7
+    LINENUMBER 55 L7
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bH : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L8
+    LINENUMBER 56 L8
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.r : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    ICONST_5
+    INVOKEVIRTUAL alb.a (III)V
+   L9
+    LINENUMBER 57 L9
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.s : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    ICONST_5
+    INVOKEVIRTUAL alb.a (III)V
+   L10
+    LINENUMBER 58 L10
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.t : Lalt;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 30
+    BIPUSH 60
+    INVOKEVIRTUAL alb.a (III)V
+   L11
+    LINENUMBER 59 L11
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.u : Lalt;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 30
+    BIPUSH 60
+    INVOKEVIRTUAL alb.a (III)V
+   L12
+    LINENUMBER 60 L12
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.X : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 30
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L13
+    LINENUMBER 61 L13
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.W : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 15
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L14
+    LINENUMBER 62 L14
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.H : Lanz;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L15
+    LINENUMBER 63 L15
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.cm : Lako;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L16
+    LINENUMBER 64 L16
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.N : Lalc;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L17
+    LINENUMBER 65 L17
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.O : Lalc;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L18
+    LINENUMBER 66 L18
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.L : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 30
+    BIPUSH 60
+    INVOKEVIRTUAL alb.a (III)V
+   L19
+    LINENUMBER 67 L19
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.bd : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 15
+    BIPUSH 100
+    INVOKEVIRTUAL alb.a (III)V
+   L20
+    LINENUMBER 68 L20
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.ci : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    ICONST_5
+    ICONST_5
+    INVOKEVIRTUAL alb.a (III)V
+   L21
+    LINENUMBER 69 L21
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.cf : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L22
+    LINENUMBER 70 L22
+    GETSTATIC ajn.ab : Lalb;
+    GETSTATIC ajn.cg : Laji;
+    INVOKESTATIC alb.b (Laji;)I
+    BIPUSH 60
+    BIPUSH 20
+    INVOKEVIRTUAL alb.a (III)V
+   L23
+    LINENUMBER 71 L23
+    RETURN
+    MAXSTACK = 4
+    MAXLOCALS = 0
+
+  // DEPRECATED
+  // access flags 0x20001
+  public a(III)V
+  @Ljava/lang/Deprecated;()
+   L0
+    LINENUMBER 76 L0
+    ALOAD 0
+    GETSTATIC aji.c : Lcw;
+    ILOAD 1
+    INVOKEVIRTUAL cw.a (I)Ljava/lang/Object;
+    CHECKCAST aji
+    ILOAD 2
+    ILOAD 3
+    INVOKEVIRTUAL alb.setFireInfo (Laji;II)V
+   L1
+    LINENUMBER 77 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lalb; L0 L2 0
+    LOCALVARIABLE p_149842_1_ I L0 L2 1
+    LOCALVARIABLE p_149842_2_ I L0 L2 2
+    LOCALVARIABLE p_149842_3_ I L0 L2 3
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public a(Lahb;III)Lazt;
+   L0
+    LINENUMBER 81 L0
+    ACONST_NULL
+    ARETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149668_1_ Lahb; L0 L1 1
+    LOCALVARIABLE p_149668_2_ I L0 L1 2
+    LOCALVARIABLE p_149668_3_ I L0 L1 3
+    LOCALVARIABLE p_149668_4_ I L0 L1 4
+    MAXSTACK = 1
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public c()Z
+   L0
+    LINENUMBER 86 L0
+    ICONST_0
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public d()Z
+   L0
+    LINENUMBER 91 L0
+    ICONST_0
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public b()I
+   L0
+    LINENUMBER 96 L0
+    ICONST_3
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public a(Ljava/util/Random;)I
+   L0
+    LINENUMBER 101 L0
+    ICONST_0
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149745_1_ Ljava/util/Random; L0 L1 1
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public a(Lahb;)I
+   L0
+    LINENUMBER 106 L0
+    BIPUSH 30
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149738_1_ Lahb; L0 L1 1
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public a(Lahb;IIILjava/util/Random;)V
+   L0
+    LINENUMBER 111 L0
+    ALOAD 1
+    INVOKEVIRTUAL ahb.O ()Lagy;
+    LDC "doFireTick"
+    INVOKEVIRTUAL agy.b (Ljava/lang/String;)Z
+    IFEQ L1
+   L2
+    LINENUMBER 113 L2
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    INVOKEVIRTUAL ahb.a (III)Laji;
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL aji.isFireSource (Lahb;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    ISTORE 6
+   L3
+    LINENUMBER 115 L3
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL alb.c (Lahb;III)Z
+    IFNE L4
+   L5
+    LINENUMBER 117 L5
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L4
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+   L4
+    LINENUMBER 120 L4
+   FRAME FULL [alb ahb I I I java/util/Random I] []
+    ILOAD 6
+    IFNE L6
+    ALOAD 1
+    INVOKEVIRTUAL ahb.Q ()Z
+    IFEQ L6
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L7
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    ISUB
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L7
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    IADD
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L7
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    ISUB
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L7
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    IADD
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFEQ L6
+   L7
+    LINENUMBER 122 L7
+   FRAME FULL [alb ahb I I I java/util/Random I] []
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L1
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+    GOTO L1
+   L6
+    LINENUMBER 126 L6
+   FRAME FULL [alb ahb I I I java/util/Random I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.e (III)I
+    ISTORE 7
+   L8
+    LINENUMBER 128 L8
+    ILOAD 7
+    BIPUSH 15
+    IF_ICMPGE L9
+   L10
+    LINENUMBER 130 L10
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ILOAD 7
+    ALOAD 5
+    ICONST_3
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ICONST_2
+    IDIV
+    IADD
+    ICONST_4
+    INVOKEVIRTUAL ahb.a (IIIII)Z
+    POP
+   L9
+    LINENUMBER 133 L9
+   FRAME FULL [alb ahb I I I java/util/Random I I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 0
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL alb.a (Lahb;)I
+    ALOAD 5
+    BIPUSH 10
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    IADD
+    INVOKEVIRTUAL ahb.a (IIILaji;I)V
+   L11
+    LINENUMBER 135 L11
+    ILOAD 6
+    IFNE L12
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESPECIAL alb.e (Lahb;III)Z
+    IFNE L12
+   L13
+    LINENUMBER 137 L13
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    INVOKESTATIC ahb.a (Lahl;III)Z
+    IFEQ L14
+    ILOAD 7
+    ICONST_3
+    IF_ICMPLE L1
+   L14
+    LINENUMBER 139 L14
+   FRAME FULL [alb ahb I I I java/util/Random I I] []
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L1
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+    GOTO L1
+   L12
+    LINENUMBER 142 L12
+   FRAME FULL [alb ahb I I I java/util/Random I I] []
+    ILOAD 6
+    IFNE L15
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L15
+    ILOAD 7
+    BIPUSH 15
+    IF_ICMPNE L15
+    ALOAD 5
+    ICONST_4
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    IFNE L15
+   L16
+    LINENUMBER 144 L16
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L1
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+    GOTO L1
+   L15
+    LINENUMBER 148 L15
+   FRAME FULL [alb ahb I I I java/util/Random I I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.z (III)Z
+    ISTORE 8
+   L17
+    LINENUMBER 149 L17
+    ICONST_0
+    ISTORE 9
+   L18
+    LINENUMBER 151 L18
+    ILOAD 8
+    IFEQ L19
+   L20
+    LINENUMBER 153 L20
+    BIPUSH -50
+    ISTORE 9
+   L19
+    LINENUMBER 156 L19
+   FRAME FULL [alb ahb I I I java/util/Random I I I I] []
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    IADD
+    ILOAD 3
+    ILOAD 4
+    SIPUSH 300
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.WEST : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L21
+    LINENUMBER 157 L21
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    ISUB
+    ILOAD 3
+    ILOAD 4
+    SIPUSH 300
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.EAST : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L22
+    LINENUMBER 158 L22
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    SIPUSH 250
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L23
+    LINENUMBER 159 L23
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    IADD
+    ILOAD 4
+    SIPUSH 250
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.DOWN : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L24
+    LINENUMBER 160 L24
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    ISUB
+    SIPUSH 300
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.SOUTH : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L25
+    LINENUMBER 161 L25
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    IADD
+    SIPUSH 300
+    ILOAD 9
+    IADD
+    ALOAD 5
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.NORTH : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L26
+    LINENUMBER 163 L26
+    ILOAD 2
+    ICONST_1
+    ISUB
+    ISTORE 10
+   L27
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I] []
+    ILOAD 10
+    ILOAD 2
+    ICONST_1
+    IADD
+    IF_ICMPGT L1
+   L28
+    LINENUMBER 165 L28
+    ILOAD 4
+    ICONST_1
+    ISUB
+    ISTORE 11
+   L29
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I] []
+    ILOAD 11
+    ILOAD 4
+    ICONST_1
+    IADD
+    IF_ICMPGT L30
+   L31
+    LINENUMBER 167 L31
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ISTORE 12
+   L32
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I] []
+    ILOAD 12
+    ILOAD 3
+    ICONST_4
+    IADD
+    IF_ICMPGT L33
+   L34
+    LINENUMBER 169 L34
+    ILOAD 10
+    ILOAD 2
+    IF_ICMPNE L35
+    ILOAD 12
+    ILOAD 3
+    IF_ICMPNE L35
+    ILOAD 11
+    ILOAD 4
+    IF_ICMPEQ L36
+   L35
+    LINENUMBER 171 L35
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I] []
+    BIPUSH 100
+    ISTORE 13
+   L37
+    LINENUMBER 173 L37
+    ILOAD 12
+    ILOAD 3
+    ICONST_1
+    IADD
+    IF_ICMPLE L38
+   L39
+    LINENUMBER 175 L39
+    ILOAD 13
+    ILOAD 12
+    ILOAD 3
+    ICONST_1
+    IADD
+    ISUB
+    BIPUSH 100
+    IMUL
+    IADD
+    ISTORE 13
+   L38
+    LINENUMBER 178 L38
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I I] []
+    ALOAD 0
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    INVOKESPECIAL alb.m (Lahb;III)I
+    ISTORE 14
+   L40
+    LINENUMBER 180 L40
+    ILOAD 14
+    IFLE L36
+   L41
+    LINENUMBER 182 L41
+    ILOAD 14
+    BIPUSH 40
+    IADD
+    ALOAD 1
+    GETFIELD ahb.r : Lrd;
+    INVOKEVIRTUAL rd.a ()I
+    BIPUSH 7
+    IMUL
+    IADD
+    ILOAD 7
+    BIPUSH 30
+    IADD
+    IDIV
+    ISTORE 15
+   L42
+    LINENUMBER 184 L42
+    ILOAD 8
+    IFEQ L43
+   L44
+    LINENUMBER 186 L44
+    ILOAD 15
+    ICONST_2
+    IDIV
+    ISTORE 15
+   L43
+    LINENUMBER 189 L43
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I I I I] []
+    ILOAD 15
+    IFLE L36
+    ALOAD 5
+    ILOAD 13
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ILOAD 15
+    IF_ICMPGT L36
+    ALOAD 1
+    INVOKEVIRTUAL ahb.Q ()Z
+    IFEQ L45
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L36
+   L45
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I I I I] []
+    ALOAD 1
+    ILOAD 10
+    ICONST_1
+    ISUB
+    ILOAD 12
+    ILOAD 4
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L36
+    ALOAD 1
+    ILOAD 10
+    ICONST_1
+    IADD
+    ILOAD 12
+    ILOAD 11
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L36
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    ICONST_1
+    ISUB
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L36
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    ICONST_1
+    IADD
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L36
+   L46
+    LINENUMBER 191 L46
+    ILOAD 7
+    ALOAD 5
+    ICONST_5
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ICONST_4
+    IDIV
+    IADD
+    ISTORE 16
+   L47
+    LINENUMBER 193 L47
+    ILOAD 16
+    BIPUSH 15
+    IF_ICMPLE L48
+   L49
+    LINENUMBER 195 L49
+    BIPUSH 15
+    ISTORE 16
+   L48
+    LINENUMBER 199 L48
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I I I I I] []
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    INVOKEVIRTUAL ahb.a (III)Laji;
+    GETSTATIC ajn.ab : Lalb;
+    IF_ACMPEQ L36
+   L50
+    LINENUMBER 201 L50
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockIgniteEvent (Lahb;IIIIII)Lorg/bukkit/event/block/BlockIgniteEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockIgniteEvent.isCancelled ()Z
+    IFEQ L51
+   L52
+    LINENUMBER 203 L52
+    GOTO L36
+   L51
+    LINENUMBER 206 L51
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I I I I I] []
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getServer ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftServer;
+    ASTORE 17
+   L53
+    LINENUMBER 207 L53
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ASTORE 18
+   L54
+    LINENUMBER 208 L54
+    ALOAD 18
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    INVOKEINTERFACE org/bukkit/World.getBlockAt (III)Lorg/bukkit/block/Block;
+    INVOKEINTERFACE org/bukkit/block/Block.getState ()Lorg/bukkit/block/BlockState;
+    ASTORE 19
+   L55
+    LINENUMBER 209 L55
+    ALOAD 19
+    ALOAD 0
+    INVOKESTATIC aji.b (Laji;)I
+    INVOKEINTERFACE org/bukkit/block/BlockState.setTypeId (I)Z
+    POP
+   L56
+    LINENUMBER 210 L56
+    ALOAD 19
+    NEW org/bukkit/material/MaterialData
+    DUP
+    ALOAD 0
+    INVOKESTATIC aji.b (Laji;)I
+    ILOAD 16
+    I2B
+    INVOKESPECIAL org/bukkit/material/MaterialData.<init> (IB)V
+    INVOKEINTERFACE org/bukkit/block/BlockState.setData (Lorg/bukkit/material/MaterialData;)V
+   L57
+    LINENUMBER 211 L57
+    NEW org/bukkit/event/block/BlockSpreadEvent
+    DUP
+    ALOAD 19
+    INVOKEINTERFACE org/bukkit/block/BlockState.getBlock ()Lorg/bukkit/block/Block;
+    ALOAD 18
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEINTERFACE org/bukkit/World.getBlockAt (III)Lorg/bukkit/block/Block;
+    ALOAD 19
+    INVOKESPECIAL org/bukkit/event/block/BlockSpreadEvent.<init> (Lorg/bukkit/block/Block;Lorg/bukkit/block/Block;Lorg/bukkit/block/BlockState;)V
+    ASTORE 20
+   L58
+    LINENUMBER 212 L58
+    ALOAD 17
+    INVOKEINTERFACE org/bukkit/Server.getPluginManager ()Lorg/bukkit/plugin/PluginManager;
+    ALOAD 20
+    INVOKEINTERFACE org/bukkit/plugin/PluginManager.callEvent (Lorg/bukkit/event/Event;)V
+   L59
+    LINENUMBER 214 L59
+    ALOAD 20
+    INVOKEVIRTUAL org/bukkit/event/block/BlockSpreadEvent.isCancelled ()Z
+    IFNE L36
+   L60
+    LINENUMBER 216 L60
+    ALOAD 1
+    ILOAD 10
+    ILOAD 12
+    ILOAD 11
+    ALOAD 19
+    INVOKEINTERFACE org/bukkit/block/BlockState.getBlock ()Lorg/bukkit/block/Block;
+    CHECKCAST org/bukkit/craftbukkit/v1_7_R4/block/CraftBlock
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/block/CraftBlock.getNMSBlock ()Laji;
+    ALOAD 19
+    INVOKEINTERFACE org/bukkit/block/BlockState.getRawData ()B
+    ICONST_3
+    INVOKEVIRTUAL ahb.d (IIILaji;II)Z
+    POP
+   L61
+    LINENUMBER 217 L61
+    ALOAD 19
+    ICONST_1
+    INVOKEINTERFACE org/bukkit/block/BlockState.update (Z)Z
+    POP
+   L36
+    LINENUMBER 167 L36
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I] []
+    IINC 12 1
+    GOTO L32
+   L33
+    LINENUMBER 165 L33
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I I] []
+    IINC 11 1
+    GOTO L29
+   L30
+    LINENUMBER 163 L30
+   FRAME FULL [alb ahb I I I java/util/Random I I I I I I] []
+    IINC 10 1
+    GOTO L27
+   L62
+   FRAME FULL [] [java/lang/Throwable]
+    NOP
+    NOP
+    ATHROW
+   L1
+    LINENUMBER 231 L1
+   FRAME FULL [alb ahb I I I java/util/Random] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 5
+    INVOKESTATIC codechicken/core/featurehack/TweakTransformerHelper.quenchFireTick (Lnet/minecraft/world/World;IIILjava/util/Random;)V
+    RETURN
+   L63
+    LOCALVARIABLE server Lorg/bukkit/Server; L53 L36 17
+    LOCALVARIABLE bworld Lorg/bukkit/World; L54 L36 18
+    LOCALVARIABLE blockState Lorg/bukkit/block/BlockState; L55 L36 19
+    LOCALVARIABLE spreadEvent Lorg/bukkit/event/block/BlockSpreadEvent; L58 L36 20
+    LOCALVARIABLE k2 I L47 L36 16
+    LOCALVARIABLE j2 I L42 L36 15
+    LOCALVARIABLE l1 I L37 L36 13
+    LOCALVARIABLE i2 I L40 L36 14
+    LOCALVARIABLE k1 I L32 L33 12
+    LOCALVARIABLE j1 I L29 L30 11
+    LOCALVARIABLE i1 I L27 L1 10
+    LOCALVARIABLE flag1 Z L17 L1 8
+    LOCALVARIABLE b0 B L18 L1 9
+    LOCALVARIABLE l I L8 L1 7
+    LOCALVARIABLE flag Z L3 L1 6
+    LOCALVARIABLE this Lalb; L0 L63 0
+    LOCALVARIABLE p_149674_1_ Lahb; L0 L63 1
+    LOCALVARIABLE p_149674_2_ I L0 L63 2
+    LOCALVARIABLE p_149674_3_ I L0 L63 3
+    LOCALVARIABLE p_149674_4_ I L0 L63 4
+    LOCALVARIABLE p_149674_5_ Ljava/util/Random; L0 L63 5
+    MAXSTACK = 9
+    MAXLOCALS = 21
+
+  // access flags 0x1
+  public L()Z
+   L0
+    LINENUMBER 235 L0
+    ICONST_0
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // DEPRECATED
+  // access flags 0x20002
+  private a(Lahb;IIIILjava/util/Random;I)V
+  @Ljava/lang/Deprecated;()
+   L0
+    LINENUMBER 241 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ILOAD 5
+    ALOAD 6
+    ILOAD 7
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKESPECIAL alb.tryCatchFire (Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L1
+    LINENUMBER 242 L1
+    RETURN
+   L2
+    LOCALVARIABLE this Lalb; L0 L2 0
+    LOCALVARIABLE p_149841_1_ Lahb; L0 L2 1
+    LOCALVARIABLE p_149841_2_ I L0 L2 2
+    LOCALVARIABLE p_149841_3_ I L0 L2 3
+    LOCALVARIABLE p_149841_4_ I L0 L2 4
+    LOCALVARIABLE p_149841_5_ I L0 L2 5
+    LOCALVARIABLE p_149841_6_ Ljava/util/Random; L0 L2 6
+    LOCALVARIABLE p_149841_7_ I L0 L2 7
+    MAXSTACK = 9
+    MAXLOCALS = 8
+
+  // access flags 0x2
+  private tryCatchFire(Lahb;IIIILjava/util/Random;ILnet/minecraftforge/common/util/ForgeDirection;)V
+   L0
+    LINENUMBER 256 L0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.a (III)Laji;
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 8
+    INVOKEVIRTUAL aji.getFlammability (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 9
+   L1
+    LINENUMBER 258 L1
+    ALOAD 1
+    INVOKEVIRTUAL ahb.O ()Lagy;
+    LDC "doFireTick"
+    INVOKEVIRTUAL agy.b (Ljava/lang/String;)Z
+    IFNE L2
+   L3
+    LINENUMBER 260 L3
+    RETURN
+   L2
+    LINENUMBER 262 L2
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I] []
+    ALOAD 6
+    ILOAD 5
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ILOAD 9
+    IF_ICMPGE L4
+   L5
+    LINENUMBER 264 L5
+    GETSTATIC alb.failures : Ljava/util/WeakHashMap;
+    ALOAD 1
+    INVOKEVIRTUAL java/util/WeakHashMap.get (Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST java/util/HashMap
+    ASTORE 10
+   L6
+    LINENUMBER 265 L6
+    ALOAD 10
+    IFNONNULL L7
+    NEW java/util/HashMap
+    DUP
+    INVOKESPECIAL java/util/HashMap.<init> ()V
+    ASTORE 10
+    GETSTATIC alb.failures : Ljava/util/WeakHashMap;
+    ALOAD 1
+    ALOAD 10
+    INVOKEVIRTUAL java/util/WeakHashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    POP
+   L7
+    LINENUMBER 266 L7
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap] []
+    NEW alb$pXYZ
+    DUP
+    ALOAD 0
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESPECIAL alb$pXYZ.<init> (Lalb;III)V
+    ASTORE 11
+   L8
+    LINENUMBER 267 L8
+    ALOAD 10
+    ALOAD 11
+    INVOKEVIRTUAL java/util/HashMap.get (Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST java/lang/Long
+    ASTORE 12
+   L9
+    LINENUMBER 268 L9
+    INVOKESTATIC java/lang/System.currentTimeMillis ()J
+    LSTORE 13
+   L10
+    LINENUMBER 269 L10
+    ALOAD 12
+    IFNULL L11
+    LLOAD 13
+    ALOAD 12
+    INVOKEVIRTUAL java/lang/Long.longValue ()J
+    LSUB
+    LDC 1000
+    LCMP
+    IFGE L11
+   L12
+    LINENUMBER 271 L12
+    RETURN
+   L11
+    LINENUMBER 274 L11
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.a (III)Laji;
+    GETSTATIC ajn.W : Laji;
+    IF_ACMPNE L13
+    ICONST_1
+    GOTO L14
+   L13
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J] []
+    ICONST_0
+   L14
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J] [I]
+    ISTORE 15
+   L15
+    LINENUMBER 276 L15
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    ASTORE 16
+   L16
+    LINENUMBER 277 L16
+    NEW org/bukkit/event/block/BlockBurnEvent
+    DUP
+    ALOAD 16
+    INVOKESPECIAL org/bukkit/event/block/BlockBurnEvent.<init> (Lorg/bukkit/block/Block;)V
+    ASTORE 17
+   L17
+    LINENUMBER 278 L17
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getServer ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftServer;
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftServer.getPluginManager ()Lorg/bukkit/plugin/PluginManager;
+    ALOAD 17
+    INVOKEINTERFACE org/bukkit/plugin/PluginManager.callEvent (Lorg/bukkit/event/Event;)V
+   L18
+    LINENUMBER 280 L18
+    ALOAD 17
+    INVOKEVIRTUAL org/bukkit/event/block/BlockBurnEvent.isCancelled ()Z
+    IFEQ L19
+   L20
+    LINENUMBER 282 L20
+    ALOAD 10
+    ALOAD 11
+    INVOKESTATIC java/lang/System.currentTimeMillis ()J
+    INVOKESTATIC java/lang/Long.valueOf (J)Ljava/lang/Long;
+    INVOKEVIRTUAL java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    POP
+   L21
+    LINENUMBER 283 L21
+    RETURN
+   L19
+    LINENUMBER 288 L19
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J I org/bukkit/block/Block org/bukkit/event/block/BlockBurnEvent] []
+    ALOAD 6
+    ILOAD 7
+    BIPUSH 10
+    IADD
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ICONST_5
+    IF_ICMPGE L22
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.y (III)Z
+    IFNE L22
+   L23
+    LINENUMBER 290 L23
+    ILOAD 7
+    ALOAD 6
+    ICONST_5
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    ICONST_4
+    IDIV
+    IADD
+    ISTORE 18
+   L24
+    LINENUMBER 292 L24
+    ILOAD 18
+    BIPUSH 15
+    IF_ICMPLE L25
+   L26
+    LINENUMBER 294 L26
+    BIPUSH 15
+    ISTORE 18
+   L25
+    LINENUMBER 297 L25
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J I org/bukkit/block/Block org/bukkit/event/block/BlockBurnEvent I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 0
+    ILOAD 18
+    ICONST_3
+    INVOKEVIRTUAL ahb.d (IIILaji;II)Z
+    POP
+   L27
+    LINENUMBER 298 L27
+    GOTO L28
+   L22
+    LINENUMBER 301 L22
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J I org/bukkit/block/Block org/bukkit/event/block/BlockBurnEvent] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+   L28
+    LINENUMBER 304 L28
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I java/util/HashMap alb$pXYZ java/lang/Long J I org/bukkit/block/Block org/bukkit/event/block/BlockBurnEvent] []
+    ILOAD 15
+    IFEQ L4
+   L29
+    LINENUMBER 306 L29
+    GETSTATIC ajn.W : Laji;
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    INVOKEVIRTUAL aji.b (Lahb;IIII)V
+   L4
+    LINENUMBER 309 L4
+   FRAME FULL [alb ahb I I I I java/util/Random I net/minecraftforge/common/util/ForgeDirection I] []
+    RETURN
+   L30
+    LOCALVARIABLE k1 I L24 L27 18
+    LOCALVARIABLE lavie Ljava/util/HashMap; L6 L4 10
+    // signature Ljava/util/HashMap<Lalb$pXYZ;Ljava/lang/Long;>;
+    // declaration: java.util.HashMap<alb$pXYZ, java.lang.Long>
+    LOCALVARIABLE lapoint Lalb$pXYZ; L8 L4 11
+    LOCALVARIABLE last Ljava/lang/Long; L9 L4 12
+    LOCALVARIABLE now J L10 L4 13
+    LOCALVARIABLE flag Z L15 L4 15
+    LOCALVARIABLE theBlock Lorg/bukkit/block/Block; L16 L4 16
+    LOCALVARIABLE event Lorg/bukkit/event/block/BlockBurnEvent; L17 L4 17
+    LOCALVARIABLE this Lalb; L0 L30 0
+    LOCALVARIABLE p_149841_1_ Lahb; L0 L30 1
+    LOCALVARIABLE p_149841_2_ I L0 L30 2
+    LOCALVARIABLE p_149841_3_ I L0 L30 3
+    LOCALVARIABLE p_149841_4_ I L0 L30 4
+    LOCALVARIABLE p_149841_5_ I L0 L30 5
+    LOCALVARIABLE p_149841_6_ Ljava/util/Random; L0 L30 6
+    LOCALVARIABLE p_149841_7_ I L0 L30 7
+    LOCALVARIABLE face Lnet/minecraftforge/common/util/ForgeDirection; L0 L30 8
+    LOCALVARIABLE j1 I L1 L30 9
+    MAXSTACK = 7
+    MAXLOCALS = 19
+
+  // access flags 0x2
+  private e(Lahb;III)Z
+   L0
+    LINENUMBER 313 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    IADD
+    ILOAD 3
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.WEST : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    ISUB
+    ILOAD 3
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.EAST : Lnet/minecraftforge/common/util/ForgeDirection;
+   L2
+    LINENUMBER 314 L2
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+   L3
+    LINENUMBER 315 L3
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    IADD
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.DOWN : Lnet/minecraftforge/common/util/ForgeDirection;
+   L4
+    LINENUMBER 316 L4
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    ISUB
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.SOUTH : Lnet/minecraftforge/common/util/ForgeDirection;
+   L5
+    LINENUMBER 317 L5
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    IADD
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.NORTH : Lnet/minecraftforge/common/util/ForgeDirection;
+   L6
+    LINENUMBER 318 L6
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IFEQ L7
+   L1
+   FRAME FULL [alb ahb I I I] []
+    ICONST_1
+    GOTO L8
+   L7
+   FRAME FULL [alb ahb I I I] []
+    ICONST_0
+   L8
+   FRAME FULL [alb ahb I I I] [I]
+    IRETURN
+   L9
+    LOCALVARIABLE this Lalb; L0 L9 0
+    LOCALVARIABLE p_149847_1_ Lahb; L0 L9 1
+    LOCALVARIABLE p_149847_2_ I L0 L9 2
+    LOCALVARIABLE p_149847_3_ I L0 L9 3
+    LOCALVARIABLE p_149847_4_ I L0 L9 4
+    MAXSTACK = 6
+    MAXLOCALS = 5
+
+  // access flags 0x2
+  private m(Lahb;III)I
+   L0
+    LINENUMBER 323 L0
+    ICONST_0
+    ISTORE 5
+   L1
+    LINENUMBER 325 L1
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.c (III)Z
+    IFNE L2
+   L3
+    LINENUMBER 327 L3
+    ICONST_0
+    IRETURN
+   L2
+    LINENUMBER 331 L2
+   FRAME FULL [alb ahb I I I I] []
+    ILOAD 5
+    ISTORE 6
+   L4
+    LINENUMBER 332 L4
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    IADD
+    ILOAD 3
+    ILOAD 4
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.WEST : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L5
+    LINENUMBER 333 L5
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ICONST_1
+    ISUB
+    ILOAD 3
+    ILOAD 4
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.EAST : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L6
+    LINENUMBER 334 L6
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L7
+    LINENUMBER 335 L7
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    IADD
+    ILOAD 4
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.DOWN : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L8
+    LINENUMBER 336 L8
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    ISUB
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.SOUTH : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L9
+    LINENUMBER 337 L9
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ICONST_1
+    IADD
+    ILOAD 6
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.NORTH : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    ISTORE 6
+   L10
+    LINENUMBER 338 L10
+    ILOAD 6
+    IRETURN
+   L11
+    LOCALVARIABLE l I L4 L11 6
+    LOCALVARIABLE this Lalb; L0 L11 0
+    LOCALVARIABLE p_149845_1_ Lahb; L0 L11 1
+    LOCALVARIABLE p_149845_2_ I L0 L11 2
+    LOCALVARIABLE p_149845_3_ I L0 L11 3
+    LOCALVARIABLE p_149845_4_ I L0 L11 4
+    LOCALVARIABLE b0 B L1 L11 5
+    MAXSTACK = 7
+    MAXLOCALS = 7
+
+  // access flags 0x1
+  public v()Z
+   L0
+    LINENUMBER 344 L0
+    ICONST_0
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // DEPRECATED
+  // access flags 0x20001
+  public e(Lahl;III)Z
+  @Ljava/lang/Deprecated;()
+   L0
+    LINENUMBER 350 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.canCatchFire (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149844_1_ Lahl; L0 L1 1
+    LOCALVARIABLE p_149844_2_ I L0 L1 2
+    LOCALVARIABLE p_149844_3_ I L0 L1 3
+    LOCALVARIABLE p_149844_4_ I L0 L1 4
+    MAXSTACK = 6
+    MAXLOCALS = 5
+
+  // DEPRECATED
+  // access flags 0x20001
+  public a(Lahb;IIII)I
+  @Ljava/lang/Deprecated;()
+   L0
+    LINENUMBER 356 L0
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ILOAD 5
+    GETSTATIC net/minecraftforge/common/util/ForgeDirection.UP : Lnet/minecraftforge/common/util/ForgeDirection;
+    INVOKEVIRTUAL alb.getChanceToEncourageFire (Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149846_1_ Lahb; L0 L1 1
+    LOCALVARIABLE p_149846_2_ I L0 L1 2
+    LOCALVARIABLE p_149846_3_ I L0 L1 3
+    LOCALVARIABLE p_149846_4_ I L0 L1 4
+    LOCALVARIABLE p_149846_5_ I L0 L1 5
+    MAXSTACK = 7
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public c(Lahb;III)Z
+   L0
+    LINENUMBER 361 L0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    INVOKESTATIC ahb.a (Lahl;III)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESPECIAL alb.e (Lahb;III)Z
+    IFEQ L2
+   L1
+   FRAME FULL [alb ahb I I I] []
+    ICONST_1
+    GOTO L3
+   L2
+   FRAME FULL [alb ahb I I I] []
+    ICONST_0
+   L3
+   FRAME FULL [alb ahb I I I] [I]
+    IRETURN
+   L4
+    LOCALVARIABLE this Lalb; L0 L4 0
+    LOCALVARIABLE p_149742_1_ Lahb; L0 L4 1
+    LOCALVARIABLE p_149742_2_ I L0 L4 2
+    LOCALVARIABLE p_149742_3_ I L0 L4 3
+    LOCALVARIABLE p_149742_4_ I L0 L4 4
+    MAXSTACK = 5
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public a(Lahb;IIILaji;)V
+   L0
+    LINENUMBER 366 L0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    INVOKESTATIC ahb.a (Lahl;III)Z
+    IFNE L1
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESPECIAL alb.e (Lahb;III)Z
+    IFNE L1
+   L2
+    LINENUMBER 368 L2
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L1
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+   L1
+    LINENUMBER 370 L1
+   FRAME FULL [alb ahb I I I aji] []
+    RETURN
+   L3
+    LOCALVARIABLE this Lalb; L0 L3 0
+    LOCALVARIABLE p_149695_1_ Lahb; L0 L3 1
+    LOCALVARIABLE p_149695_2_ I L0 L3 2
+    LOCALVARIABLE p_149695_3_ I L0 L3 3
+    LOCALVARIABLE p_149695_4_ I L0 L3 4
+    LOCALVARIABLE p_149695_5_ Laji; L0 L3 5
+    MAXSTACK = 5
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public b(Lahb;III)V
+   L0
+    LINENUMBER 374 L0
+    GETSTATIC net/minecraft/server/MinecraftServer.thermosConfig : Lthermos/ThermosConfig;
+    GETFIELD thermos/ThermosConfig.commonAllowNetherPortal : Lnet/minecraftforge/cauldron/configuration/BoolSetting;
+    INVOKEVIRTUAL net/minecraftforge/cauldron/configuration/BoolSetting.getValue ()Ljava/lang/Boolean;
+    INVOKEVIRTUAL java/lang/Boolean.booleanValue ()Z
+    IFNE L1
+    ALOAD 1
+    GETFIELD ahb.t : Laqo;
+    GETFIELD aqo.i : I
+    IFGT L2
+   L1
+   FRAME FULL [alb ahb I I I] []
+    GETSTATIC ajn.aO : Lamp;
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL amp.e (Lahb;III)Z
+    IFNE L3
+   L2
+    LINENUMBER 376 L2
+   FRAME FULL [alb ahb I I I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ICONST_1
+    ISUB
+    ILOAD 4
+    INVOKESTATIC ahb.a (Lahl;III)Z
+    IFNE L4
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKESPECIAL alb.e (Lahb;III)Z
+    IFNE L4
+   L5
+    LINENUMBER 378 L5
+    ALOAD 1
+    INVOKEVIRTUAL ahb.getWorld ()Lorg/bukkit/craftbukkit/v1_7_R4/CraftWorld;
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL org/bukkit/craftbukkit/v1_7_R4/CraftWorld.getBlockAt (III)Lorg/bukkit/block/Block;
+    GETSTATIC ajn.a : Laji;
+    INVOKESTATIC org/bukkit/craftbukkit/v1_7_R4/event/CraftEventFactory.callBlockFadeEvent (Lorg/bukkit/block/Block;Laji;)Lorg/bukkit/event/block/BlockFadeEvent;
+    INVOKEVIRTUAL org/bukkit/event/block/BlockFadeEvent.isCancelled ()Z
+    IFNE L3
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEVIRTUAL ahb.f (III)Z
+    POP
+    GOTO L3
+   L4
+    LINENUMBER 382 L4
+   FRAME FULL [alb ahb I I I] []
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 0
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL alb.a (Lahb;)I
+    ALOAD 1
+    GETFIELD ahb.s : Ljava/util/Random;
+    BIPUSH 10
+    INVOKEVIRTUAL java/util/Random.nextInt (I)I
+    IADD
+    INVOKEVIRTUAL ahb.a (IIILaji;I)V
+   L3
+    LINENUMBER 385 L3
+   FRAME FULL [alb ahb I I I] []
+    RETURN
+   L6
+    LOCALVARIABLE this Lalb; L0 L6 0
+    LOCALVARIABLE p_149726_1_ Lahb; L0 L6 1
+    LOCALVARIABLE p_149726_2_ I L0 L6 2
+    LOCALVARIABLE p_149726_3_ I L0 L6 3
+    LOCALVARIABLE p_149726_4_ I L0 L6 4
+    MAXSTACK = 8
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public f(I)Lawv;
+   L0
+    LINENUMBER 489 L0
+    GETSTATIC awv.f : Lawv;
+    ARETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE p_149728_1_ I L0 L1 1
+    MAXSTACK = 1
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public setFireInfo(Laji;II)V
+   L0
+    LINENUMBER 502 L0
+    ALOAD 1
+    GETSTATIC ajn.a : Laji;
+    IF_ACMPNE L1
+    NEW java/lang/IllegalArgumentException
+    DUP
+    LDC "Tried to set air on fire... This is bad."
+    INVOKESPECIAL java/lang/IllegalArgumentException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L1
+    LINENUMBER 503 L1
+   FRAME FULL [alb aji I I] []
+    ALOAD 1
+    INVOKESTATIC aji.b (Laji;)I
+    ISTORE 4
+   L2
+    LINENUMBER 504 L2
+    ALOAD 0
+    GETFIELD alb.a : [I
+    ILOAD 4
+    ILOAD 2
+    IASTORE
+   L3
+    LINENUMBER 505 L3
+    ALOAD 0
+    GETFIELD alb.b : [I
+    ILOAD 4
+    ILOAD 3
+    IASTORE
+   L4
+    LINENUMBER 507 L4
+    ALOAD 0
+    ALOAD 1
+    ICONST_1
+    INVOKESPECIAL alb.getInfo (Laji;Z)Lalb$FireInfo;
+    ASTORE 5
+   L5
+    LINENUMBER 508 L5
+    ALOAD 5
+    ILOAD 2
+    INVOKESTATIC alb$FireInfo.access$002 (Lalb$FireInfo;I)I
+    POP
+   L6
+    LINENUMBER 509 L6
+    ALOAD 5
+    ILOAD 3
+    INVOKESTATIC alb$FireInfo.access$102 (Lalb$FireInfo;I)I
+    POP
+   L7
+    LINENUMBER 510 L7
+    RETURN
+   L8
+    LOCALVARIABLE this Lalb; L0 L8 0
+    LOCALVARIABLE block Laji; L0 L8 1
+    LOCALVARIABLE encouragement I L0 L8 2
+    LOCALVARIABLE flammibility I L0 L8 3
+    LOCALVARIABLE id I L2 L8 4
+    LOCALVARIABLE info Lalb$FireInfo; L5 L8 5
+    MAXSTACK = 3
+    MAXLOCALS = 6
+
+  // access flags 0x2
+  private getInfo(Laji;Z)Lalb$FireInfo;
+   L0
+    LINENUMBER 514 L0
+    ALOAD 0
+    GETFIELD alb.blockInfo : Ljava/util/IdentityHashMap;
+    ALOAD 1
+    INVOKEVIRTUAL java/util/IdentityHashMap.get (Ljava/lang/Object;)Ljava/lang/Object;
+    CHECKCAST alb$FireInfo
+    ASTORE 3
+   L1
+    LINENUMBER 515 L1
+    ALOAD 3
+    IFNONNULL L2
+    ILOAD 2
+    IFEQ L2
+   L3
+    LINENUMBER 517 L3
+    NEW alb$FireInfo
+    DUP
+    ACONST_NULL
+    INVOKESPECIAL alb$FireInfo.<init> (Lalb$1;)V
+    ASTORE 3
+   L4
+    LINENUMBER 518 L4
+    ALOAD 0
+    GETFIELD alb.blockInfo : Ljava/util/IdentityHashMap;
+    ALOAD 1
+    ALOAD 3
+    INVOKEVIRTUAL java/util/IdentityHashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    POP
+   L2
+    LINENUMBER 520 L2
+   FRAME FULL [alb aji I alb$FireInfo] []
+    ALOAD 3
+    ARETURN
+   L5
+    LOCALVARIABLE this Lalb; L0 L5 0
+    LOCALVARIABLE block Laji; L0 L5 1
+    LOCALVARIABLE garentee Z L0 L5 2
+    LOCALVARIABLE ret Lalb$FireInfo; L1 L5 3
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public rebuildFireInfo()V
+   L0
+    LINENUMBER 525 L0
+    ICONST_0
+    ISTORE 1
+   L1
+   FRAME FULL [alb I] []
+    ILOAD 1
+    SIPUSH 4096
+    IF_ICMPGE L2
+   L3
+    LINENUMBER 529 L3
+    ALOAD 0
+    GETFIELD alb.a : [I
+    ILOAD 1
+    ICONST_0
+    IASTORE
+   L4
+    LINENUMBER 530 L4
+    ALOAD 0
+    GETFIELD alb.b : [I
+    ILOAD 1
+    ICONST_0
+    IASTORE
+   L5
+    LINENUMBER 525 L5
+    IINC 1 1
+    GOTO L1
+   L2
+    LINENUMBER 533 L2
+   FRAME FULL [alb I] []
+    ALOAD 0
+    GETFIELD alb.blockInfo : Ljava/util/IdentityHashMap;
+    INVOKEVIRTUAL java/util/IdentityHashMap.entrySet ()Ljava/util/Set;
+    INVOKEINTERFACE java/util/Set.iterator ()Ljava/util/Iterator;
+    ASTORE 1
+   L6
+   FRAME FULL [alb java/util/Iterator] []
+    ALOAD 1
+    INVOKEINTERFACE java/util/Iterator.hasNext ()Z
+    IFEQ L7
+    ALOAD 1
+    INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object;
+    CHECKCAST java/util/Map$Entry
+    ASTORE 2
+   L8
+    LINENUMBER 535 L8
+    ALOAD 2
+    INVOKEINTERFACE java/util/Map$Entry.getKey ()Ljava/lang/Object;
+    CHECKCAST aji
+    INVOKESTATIC aji.b (Laji;)I
+    ISTORE 3
+   L9
+    LINENUMBER 536 L9
+    ILOAD 3
+    IFLT L10
+    ILOAD 3
+    SIPUSH 4096
+    IF_ICMPGE L10
+   L11
+    LINENUMBER 538 L11
+    ALOAD 0
+    GETFIELD alb.a : [I
+    ILOAD 3
+    ALOAD 2
+    INVOKEINTERFACE java/util/Map$Entry.getValue ()Ljava/lang/Object;
+    CHECKCAST alb$FireInfo
+    INVOKESTATIC alb$FireInfo.access$000 (Lalb$FireInfo;)I
+    IASTORE
+   L12
+    LINENUMBER 539 L12
+    ALOAD 0
+    GETFIELD alb.b : [I
+    ILOAD 3
+    ALOAD 2
+    INVOKEINTERFACE java/util/Map$Entry.getValue ()Ljava/lang/Object;
+    CHECKCAST alb$FireInfo
+    INVOKESTATIC alb$FireInfo.access$100 (Lalb$FireInfo;)I
+    IASTORE
+   L10
+    LINENUMBER 541 L10
+   FRAME FULL [alb java/util/Iterator java/util/Map$Entry I] []
+    GOTO L6
+   L7
+    LINENUMBER 542 L7
+   FRAME FULL [alb java/util/Iterator] []
+    RETURN
+   L13
+    LOCALVARIABLE x I L1 L2 1
+    LOCALVARIABLE id I L9 L10 3
+    LOCALVARIABLE e Ljava/util/Map$Entry; L8 L10 2
+    // signature Ljava/util/Map$Entry<Laji;Lalb$FireInfo;>;
+    // declaration: java.util.Map$Entry<aji, alb$FireInfo>
+    LOCALVARIABLE this Lalb; L0 L13 0
+    MAXSTACK = 3
+    MAXLOCALS = 4
+
+  // access flags 0x1
+  public getFlammability(Laji;)I
+   L0
+    LINENUMBER 546 L0
+    ALOAD 1
+    INVOKESTATIC aji.b (Laji;)I
+    ISTORE 2
+   L1
+    LINENUMBER 547 L1
+    ILOAD 2
+    IFLT L2
+    ILOAD 2
+    SIPUSH 4096
+    IF_ICMPGE L2
+    ALOAD 0
+    GETFIELD alb.b : [I
+    ILOAD 2
+    IALOAD
+    GOTO L3
+   L2
+   FRAME FULL [alb aji I] []
+    ICONST_0
+   L3
+   FRAME FULL [alb aji I] [I]
+    IRETURN
+   L4
+    LOCALVARIABLE this Lalb; L0 L4 0
+    LOCALVARIABLE block Laji; L0 L4 1
+    LOCALVARIABLE id I L1 L4 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public getEncouragement(Laji;)I
+   L0
+    LINENUMBER 552 L0
+    ALOAD 1
+    INVOKESTATIC aji.b (Laji;)I
+    ISTORE 2
+   L1
+    LINENUMBER 553 L1
+    ILOAD 2
+    IFLT L2
+    ILOAD 2
+    SIPUSH 4096
+    IF_ICMPGE L2
+    ALOAD 0
+    GETFIELD alb.a : [I
+    ILOAD 2
+    IALOAD
+    GOTO L3
+   L2
+   FRAME FULL [alb aji I] []
+    ICONST_0
+   L3
+   FRAME FULL [alb aji I] [I]
+    IRETURN
+   L4
+    LOCALVARIABLE this Lalb; L0 L4 0
+    LOCALVARIABLE block Laji; L0 L4 1
+    LOCALVARIABLE id I L1 L4 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x1
+  public canCatchFire(Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+   L0
+    LINENUMBER 568 L0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEINTERFACE ahl.a (III)Laji;
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 5
+    INVOKEVIRTUAL aji.isFlammable (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)Z
+    IRETURN
+   L1
+    LOCALVARIABLE this Lalb; L0 L1 0
+    LOCALVARIABLE world Lahl; L0 L1 1
+    LOCALVARIABLE x I L0 L1 2
+    LOCALVARIABLE y I L0 L1 3
+    LOCALVARIABLE z I L0 L1 4
+    LOCALVARIABLE face Lnet/minecraftforge/common/util/ForgeDirection; L0 L1 5
+    MAXSTACK = 6
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public getChanceToEncourageFire(Lahl;IIIILnet/minecraftforge/common/util/ForgeDirection;)I
+   L0
+    LINENUMBER 584 L0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    INVOKEINTERFACE ahl.a (III)Laji;
+    ASTORE 7
+   L1
+    LINENUMBER 585 L1
+    ALOAD 7
+    IFNULL L2
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ALOAD 6
+    INVOKEVIRTUAL alb.getFireSpreadSpeed (Lahl;IIILnet/minecraftforge/common/util/ForgeDirection;)I
+    GOTO L3
+   L2
+   FRAME FULL [alb ahl I I I I net/minecraftforge/common/util/ForgeDirection aji] []
+    ICONST_0
+   L3
+   FRAME FULL [alb ahl I I I I net/minecraftforge/common/util/ForgeDirection aji] [I]
+    ISTORE 8
+   L4
+    LINENUMBER 586 L4
+    ILOAD 8
+    ILOAD 5
+    IF_ICMPLE L5
+    ILOAD 8
+    GOTO L6
+   L5
+   FRAME FULL [alb ahl I I I I net/minecraftforge/common/util/ForgeDirection aji I] []
+    ILOAD 5
+   L6
+   FRAME FULL [alb ahl I I I I net/minecraftforge/common/util/ForgeDirection aji I] [I]
+    IRETURN
+   L7
+    LOCALVARIABLE this Lalb; L0 L7 0
+    LOCALVARIABLE world Lahl; L0 L7 1
+    LOCALVARIABLE x I L0 L7 2
+    LOCALVARIABLE y I L0 L7 3
+    LOCALVARIABLE z I L0 L7 4
+    LOCALVARIABLE oldChance I L0 L7 5
+    LOCALVARIABLE face Lnet/minecraftforge/common/util/ForgeDirection; L0 L7 6
+    LOCALVARIABLE block Laji; L1 L7 7
+    LOCALVARIABLE newChance I L4 L7 8
+    MAXSTACK = 6
+    MAXLOCALS = 9
+
+  // access flags 0x8
+  static <clinit>()V
+   L0
+    LINENUMBER 253 L0
+    NEW java/util/WeakHashMap
+    DUP
+    INVOKESPECIAL java/util/WeakHashMap.<init> ()V
+    PUTSTATIC alb.failures : Ljava/util/WeakHashMap;
+    RETURN
+    MAXSTACK = 2
+    MAXLOCALS = 0
+}
