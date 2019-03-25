@@ -82,11 +82,56 @@ plugin-settings:
   allow-reload: false
   default:
     remap-plugin-file: false
+    custom-class-loader: true
+    debug: false
+    remap-nms-v1_7_R4: true
+    remap-nms-v1_7_R3: true
+    remap-nms-v1_7_R1: true
+    remap-nms-v1_6_R3: true
+    remap-nms-v1_5_R3: true
+    remap-nms-pre: 'false'
+    remap-obc-v1_7_R4: true
+    remap-obc-v1_7_R3: true
+    remap-obc-v1_7_R1: true
+    remap-obc-v1_6_R3: true
+    remap-obc-v1_5_R3: true
+    remap-obc-pre: false
+    global-inheritance: true
+    plugin-inheritance: true
+    remap-reflect-field: true
+    remap-reflect-class: true
+    remap-allow-future: false
 world-settings:
   default:
     flowing-lava-decay: false
     allow-tnt-punishment: true
     infinite-water-source: true
+    entity-despawn-immediate: false
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-Techguns-OreGenerator: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-advancedRocketry-OreGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-lightsabers-WorldGeneratorOres: true
+    worldgen-lightsabers-WorldGeneratorStructures: true
+    worldgen-dldungeonsjdg-GenerationHandler: true
+    worldgen-ASRuins-RuinsWorldGenerator: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-WarpDrive-CommonWorldGenerator: true
   max-players-visible: -1
   use-real-names: false
 protection:
@@ -104,3 +149,27 @@ fake-players:
 debug:
   thread-contention-monitoring: false
 config-version: 1
+world-environment-settings:
+  normal:
+    keep-world-loaded: true
+  nether:
+    keep-world-loaded: true
+  the_end:
+    keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
+  endoftime:
+    keep-world-loaded: true
+  underdark:
+    keep-world-loaded: false
+  space:
+    keep-world-loaded: true
+  planet:
+    keep-world-loaded: false
+    enabled: true
+  hyperspace:
+    keep-world-loaded: true
+  tatooine:
+    keep-world-loaded: true
+  endor:
+    keep-world-loaded: true
