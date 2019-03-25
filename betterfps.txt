@@ -1,7 +1,6 @@
 #BetterFps Config
-<<<<<<< HEAD
-#Mon Mar 25 07:25:02 UTC 2019
-=======
-#Mon Mar 25 07:14:23 UTC 2019
->>>>>>> 5cfc2e801ded37659b055960bbb53718542db0af
+#Mon Mar 25 07:43:30 UTC 2019
 algorithm=rivens-half
+>>>>>>>=5cfc2e801ded37659b055960bbb53718542db0af
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
