@@ -107,25 +107,25 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-voltzengine-OreGenReplace: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-BigReactors-BRWorldGenerator: true
     worldgen-Forestry-WorldGenerator: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-Techguns-OreGenerator: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-rftools-GenericWorldGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-advancedRocketry-OreGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-mo-MOWorldGen: true
     worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-Techguns-OreGenerator: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-advancedRocketry-OreGenerator: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
     worldgen-lightsabers-WorldGeneratorOres: true
     worldgen-lightsabers-WorldGeneratorStructures: true
     worldgen-dldungeonsjdg-GenerationHandler: true
@@ -162,6 +162,11 @@ world-environment-settings:
     keep-world-loaded: true
   underdark:
     keep-world-loaded: false
+  space:
+    keep-world-loaded: true
+  planet:
+    keep-world-loaded: false
+    enabled: true
   tatooine:
     keep-world-loaded: true
   endor:
@@ -170,8 +175,3 @@ world-environment-settings:
     keep-world-loaded: true
   hoth:
     keep-world-loaded: true
-  space:
-    keep-world-loaded: true
-  planet:
-    keep-world-loaded: false
-    enabled: true

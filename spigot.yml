@@ -16,9 +16,9 @@ settings:
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
+  bungeecord: false
   late-bind: false
   sample-count: 12
-  bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
 messages:
@@ -61,6 +61,12 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -84,18 +90,12 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-structure-info: true
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
     mob-spawn-range: 4
     enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
+    item-despawn-rate: 6000
+    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
-    item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
     use-async-lighting: false
