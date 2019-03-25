@@ -1,8 +1,10 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553483243598
+  login: 1553484650468
   logout: 1553483340477
-  lastteleport: 1553399449060
+  lastteleport: 1553485147128
+  kits:
+    tools: 1553485179216
 ipAddress: 75.129.254.61
 afk: false
 logoutlocation:
@@ -13,10 +15,10 @@ logoutlocation:
   yaw: -32.699493
   pitch: 20.099989
 lastlocation:
-  world: DIM-20
-  x: -518.0
-  y: 72.0
-  z: -92.0
-  yaw: -220.6324
-  pitch: -15.149991
+  world: advRocketry/DIM1001
+  x: 1.750384958883805
+  y: 70.81596739321965
+  z: -0.6475757570724879
+  yaw: -310.35065
+  pitch: 49.049877
 money: '298.0'
