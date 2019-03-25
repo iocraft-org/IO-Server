@@ -22,16 +22,19 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-tileentity-TileEntityChest:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+    forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
-    forestry-apiculture-tiles-TileSwarm:
+    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-DoorTileEntity:
@@ -47,9 +50,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityTritaniumCrate:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:

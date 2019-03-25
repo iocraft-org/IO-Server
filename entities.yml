@@ -18,11 +18,23 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-entity-passive-EntityCow:
+    net-minecraft-entity-item-EntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityItem:
+    net-minecraft-entity-passive-EntityHorse:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityMinecartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityPig:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -30,7 +42,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityMinecartChest:
+    net-minecraft-entity-passive-EntitySheep:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityCow:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -42,55 +58,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntitySkeleton:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-SkeletonSoldier:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityWitch:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-ZombieFarmer:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-Bandit:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntityZombie:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-ZombieSoldier:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-ZombieMiner:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    techguns-entities-npc-PsychoSteve:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntitySquid:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntitySheep:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -98,7 +66,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityPig:
+    techguns-entities-npc-ZombieMiner:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    techguns-entities-npc-ZombieFarmer:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -106,7 +78,75 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySquid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-passive-EntityBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBasalz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlizz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    techguns-entities-npc-SkeletonSoldier:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    techguns-entities-npc-Bandit:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    techguns-entities-npc-ZombieSoldier:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    techguns-entities-npc-PsychoSteve:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -115,30 +155,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityItemFrame:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityHorse:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityEnderman:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityWolf:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -158,19 +174,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBasalz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     techguns-entities-projectiles-GenericProjectile:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntitySlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -179,10 +183,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-projectile-EntityArrow:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlizz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
