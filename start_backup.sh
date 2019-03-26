@@ -11,6 +11,7 @@ MYSQL_HOSTNAME=$(cat ~/.mysql_hostname)
 #IRC_PASSWORD=$(cat ~/.irc_password)
 MCR_PASS=$(cat ~/.mcr_pass)
 START_SCRIPT=$(echo "start_backup.sh")
+RESTART_TIME=$(echo "2500")
 #MONGO=$(cat ~/.mongo)
 JAR="Thermos-1.7.10-1614-server.jar"
 RAM_MIN="1G"
@@ -19,6 +20,7 @@ CPU_CORES="5"
 #CURRENT_VERSION="$(curl -s 'https://raw.githubusercontent.com/worldautomation/WA-Launcher-Pack/master/app/assets/distribution.json' | awk '/version/{i++}i==2{print; exit}' | awk -F "\"*:\"*" '{print $2}' | cut -c 3- | cut -c -7)"
 if ! screen -list | grep -q "iogame"; then
 	echo "Server is starting!"
+	git stash
 	sh pull.sh
 	rm server.properties
 	sed s/MCR_PASS/$MCR_PASS/g server.properties.template > server.properties
@@ -27,7 +29,7 @@ if ! screen -list | grep -q "iogame"; then
 	sed s/START_SCRIPT/$START_SCRIPT/g spigot.yml.template > spigot.yml
 	
 	rm plugins/Restart/config.yml
-	sed s/RESTART_TIME/
+	sed s/RESTART_TIME/$RESTART_TIME/g plugins/Restart/config.yml.template > config.yml
 
 	##
 	## Start Credentials

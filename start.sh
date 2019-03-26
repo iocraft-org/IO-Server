@@ -10,6 +10,8 @@ MYSQL_PASSWORD=$(cat ~/.mysql_password)
 MYSQL_HOSTNAME=$(cat ~/.mysql_hostname)
 #IRC_PASSWORD=$(cat ~/.irc_password)
 MCR_PASS=$(cat ~/.mcr_pass)
+START_SCRIPT=$(echo "start.sh")
+RESTART_TIME=$(echo "5000")
 #MONGO=$(cat ~/.mongo)
 JAR="Thermos-1.7.10-1614-server.jar"
 RAM_MIN="1G"
@@ -21,6 +23,13 @@ if ! screen -list | grep -q "iogame"; then
 	bash push.sh
 	rm server.properties
 	sed s/MCR_PASS/$MCR_PASS/g server.properties.template > server.properties
+
+        rm spigot.yml
+        sed s/START_SCRIPT/$START_SCRIPT/g spigot.yml.template > spigot.yml
+
+        rm plugins/Restart/config.yml
+        sed s/RESTART_TIME/$RESTART_TIME/g plugins/Restart/config.yml.template > config.yml
+
 	##
 	## Start Credentials
 	##
