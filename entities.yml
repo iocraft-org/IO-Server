@@ -122,6 +122,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
