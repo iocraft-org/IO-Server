@@ -46,6 +46,13 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlExperienceBridge/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlExperienceBridge/config.yml;
 
+	# MySQL Advanced Achievements
+	rm plugins/AdvancedAchievements/config.yml;
+	sed "s#MYSQL_DATABASE#$MYSQL_DATABASE#g" plugins/AdvancedAchievements/config.yml.template > plugins/AdvancedAchievements/config.yml;
+	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/AdvancedAchievements/config.yml;
+	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/AdvancedAchievements/config.yml;
+	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/AdvancedAchievements/config.yml;
+
 	##
 	## End Credentials
 	##
