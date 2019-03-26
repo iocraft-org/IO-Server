@@ -1,7 +1,7 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 rm -rf logs/*.gz
-DISCORD=$(cat ~/.discord_token)
+DISCORD_TOKEN=$(cat ~/.discord_token)
 WP_USER=$(cat ~/.wp_username)
 WP_PASS=$(cat ~/.wp_password)
 MYSQL_DATABASE=$(cat ~/.mysql_database)
