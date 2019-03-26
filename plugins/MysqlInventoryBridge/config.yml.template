@@ -59,6 +59,6 @@ Debug:
 #Chat Messages with full color and format codes support. Disable any message by setting it to ''  |  Example>  syncComplete: ''
 #Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes
 ChatMessages:
-    syncComplete: '&8[&l&7IO&r&8] &r&aData sync complete!'
-    inventorySyncError: '&8[&l&7IO&r&8] &cError loading your inventory! Contact the staff team!'
-    inventorySyncBackup: '&8[&l&7IO&r&8] &eRestored the local inventory! Dont leave items in your inventory when you disconnect!'
+    syncComplete: '&8[&7&lIO&r&8]&r &aData sync complete!'
+    inventorySyncError: '&8[&7&lIO&r&8]&r &cError loading your inventory! Contact the staff team!'
+    inventorySyncBackup: '&8[&7&lIO&r&8]&r &eRestored the local inventory! Dont leave items in your inventory when you disconnect!'

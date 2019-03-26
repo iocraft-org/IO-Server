@@ -71,7 +71,7 @@ BookSeparator: ''
 ListAchievementFormat: '%ICON% %NAME% %ICON%'
 
 # Set the format of the header used for most chat messages (default: "&7[%ICON%&7]").
-ChatHeader: '&7[%ICON%&7]'
+ChatHeader: '&8[&7&lIO&r&8]&r'
 
 # Stop all stats from increasing when player in creative mode, including PlayedTime.
 # Connection achievements will only be handled once a player switches to a non-creative mode.
