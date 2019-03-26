@@ -19,7 +19,7 @@
 TimeBook: 900
 
 # Check for update on plugin launch and notify when an OP joins the game.
-CheckForUpdate: true
+CheckForUpdate: false
 
 # Set to true to activate firework effects when a player receives an achievement.
 Firework: true
@@ -205,7 +205,7 @@ DatabaseType: mysql
 # Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
 # the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
 # Do a full server restart for this to take effect.
-TablePrefix: 'aa_'
+TablePrefix: 'mc_'
 
 # Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
 # for instance "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
@@ -213,9 +213,9 @@ AdditionalConnectionOptions: ''
 
 # Settings to link with MySQL database (ignored if sqlite or postgresql).
 MYSQL:
-  Database: jdbc:mysql://INSERT_DBHOST:3306/INSERT_DBNAME
-  User: INSERT_DBUSER
-  Password: INSERT_DBPASS
+  Database: jdbc:mysql://MYSQL_HOSTNAME:3306/MYSQL_DATABASE
+  User: MYSQL_USERNAME
+  Password: MYSQL_PASSWORD
 
 # Settings to link with PostgresSQL database (ignored if sqlite or mysql).
 # Refer to https://github.com/PyvesB/AdvancedAchievements/wiki/Installation to set up PostgreSQL.
