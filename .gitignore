@@ -30,6 +30,7 @@ nucleus/userdata
 nucleus/userdata/*
 plugins/invsync/invsync.conf
 plugins/betterchunkloader/config.conf
+plugins/MysqlInventoryBridge/config.yml
 banned-ips.json
 banned-players.json
 usercache.json
