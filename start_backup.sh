@@ -13,12 +13,11 @@ MCR_PASS=$(cat ~/.mcr_pass)
 #MONGO=$(cat ~/.mongo)
 JAR="Thermos-1.7.10-1614-server.jar"
 RAM_MIN="1G"
-RAM_MAX="3G"
-CPU_CORES="1"
+RAM_MAX="6G"
+CPU_CORES="5"
 #CURRENT_VERSION="$(curl -s 'https://raw.githubusercontent.com/worldautomation/WA-Launcher-Pack/master/app/assets/distribution.json' | awk '/version/{i++}i==2{print; exit}' | awk -F "\"*:\"*" '{print $2}' | cut -c 3- | cut -c -7)"
 if ! screen -list | grep -q "iogame"; then
 	echo "Server is starting!"
-	#bash push.sh
 	rm server.properties
 	sed s/MCR_PASS/$MCR_PASS/g server.properties.template > server.properties
 	##
@@ -31,6 +30,8 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/OnTime/config.yml;
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/OnTime/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/OnTime/config.yml;
+	rm plugins/OnTime.jar
+	## BACKUP SERVER - ABOVE DISABLES
 
 	# MySQL Inventory Bridge
 	rm plugins/MysqlInventoryBridge/config.yml;
@@ -38,6 +39,8 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/MysqlInventoryBridge/config.yml;
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlInventoryBridge/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlInventoryBridge/config.yml;
+	rm plugins/Mysql*.jar
+	## BACKUP SERVER - ABOVE DISABLES
 
 	# MySQL Experience Bridge
 	rm plugins/MysqlExperienceBridge/config.yml;
@@ -45,6 +48,8 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/MysqlExperienceBridge/config.yml;
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlExperienceBridge/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlExperienceBridge/config.yml;
+	rm plugins/Mysql*.jar
+	## BACKUP SERVER - ABOVE DISABLES
 
 	# MySQL Advanced Achievements
 	rm plugins/AdvancedAchievements/config.yml;
@@ -52,10 +57,14 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/AdvancedAchievements/config.yml;
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/AdvancedAchievements/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/AdvancedAchievements/config.yml;
+	rm plugins/AdvancedAchievements*.jar
+	## BACKUP SERVER - ABOVE DISABLES
 
 	# MySQL Discord SRV
 	rm plugins/DiscordSRV/config.yml;
 	sed "s#DISCORD_TOKEN#$DISCORD_TOKEN#g" plugins/DiscordSRV/config.yml.template > plugins/DiscordSRV/config.yml;
+	rm plugins/Discord*.jar
+	## BACKUP SERVER - ABOVE DISABLES
 
 	##
 	## End Credentials
