@@ -139,6 +139,9 @@ world-settings:
     cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrillPrecharger:
       tick-no-players: false
       tick-interval: 1
@@ -149,9 +152,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-FenceGateTileEntity:
