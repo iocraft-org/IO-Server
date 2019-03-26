@@ -190,7 +190,7 @@ ChannelTopicUpdaterRateInMinutes: 5
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!technic": "https://www.technicpack.net/modpack/worldautomation", "!curse": "https://minecraft.curseforge.com/projects/worldautomation", "!site": "https://www.iocraft.org", "!download": "https://www.iocraft.org/download"}
+DiscordCannedResponses: {"!technic": "https://www.technicpack.net/modpack/iocraft", "!curse": "https://minecraft.curseforge.com/projects/iocraft", "!site": "https://www.iocraft.org", "!download": "https://www.iocraft.org/download"}
 
 # Minecraft to Discord account linking
 # These are the config options pertaining to how linking a Minecraft account to a Discord account functions
@@ -222,7 +222,7 @@ MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: false
 # GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
 # GroupRoleSynchronizationRemoveRolesOnUnlink: whether or not to remove synced roles from a Discord user when unlinking accounts
 #
-GroupRoleSynchronizationRoleIdsToSync: ["413460388072652810", "424623754245570570", "424623790199406592", "424623843059957763", "228826020831166464", "518695492176052244"]
+GroupRoleSynchronizationRoleIdsToSync: [ ]
 GroupRoleSynchronizationCycleTime: 5
 GroupRoleSynchronizationRemoveRolesOnUnlink: true
 
