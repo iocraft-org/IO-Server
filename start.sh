@@ -28,7 +28,7 @@ if ! screen -list | grep -q "iogame"; then
         sed s/START_SCRIPT/$START_SCRIPT/g spigot.yml.template > spigot.yml
 
         rm plugins/Restart/config.yml
-        sed s/RESTART_TIME/$RESTART_TIME/g plugins/Restart/config.yml.template > config.yml
+        sed s/RESTART_TIME/$RESTART_TIME/g plugins/Restart/config.yml.template > plugins/Restart/config.yml
 
 	##
 	## Start Credentials
