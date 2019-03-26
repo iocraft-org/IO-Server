@@ -2,7 +2,15 @@ spawnwelcome:
   location: Universe, -1286.438, 72.917, 1085.309
   lines:
   - Welcome to ioCraft.org!
-welcome:
-  location: world, 0.700, 64.200, 21.300
+ore:
+  location: advRocketry/DIM1001, -449.956, 71.567, -46.036
   lines:
-  - Welcome to ioCraft.org!
+  - Ore Mining and Processing Research
+welcome1:
+  location: advRocketry/DIM1001, 2.349, 68.193, 0.497
+  lines:
+  - Welcome
+welcome2:
+  location: advRocketry/DIM1001, 2.349, 67.453, 0.497
+  lines:
+  - to ioCraft.org

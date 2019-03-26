@@ -233,6 +233,8 @@ kits:
       - 273 1
       - 274 1
       - 275 1  
+      - 5614
+      - 5606
       - 354 1  
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.

@@ -133,6 +133,18 @@ world-settings:
     powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrill:
       tick-no-players: false
       tick-interval: 1
+    crazypants-enderio-machine-light-TileElectricLight:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileChargePad:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileHealthPad:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
+      tick-no-players: false
+      tick-interval: 1
     net-malisis-doors-door-tileentity-RustyHatchTileEntity:
       tick-no-players: false
       tick-interval: 1
@@ -233,9 +245,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
-      tick-no-players: false
-      tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp5:
