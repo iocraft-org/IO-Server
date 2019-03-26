@@ -78,7 +78,7 @@ MySQL:
   user: MYSQL_USERNAME
   password: MYSQL_PASSWORD
   database: MYSQL_DATABASE
-  table: ontime-players
+  table: mc_playtimes
   multiServerTable: ontime_mulitServer
 
 # Enable if data should be saved to disk on scheduled event. Otherwise it will happen on server shutdown only

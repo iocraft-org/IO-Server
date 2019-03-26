@@ -11,7 +11,7 @@ database:
         #Database name (NOTE! You need to create the database, then the plugin will create the tables.)
         databaseName: 'MYSQ_DATABASE'
         #Tables name (the plugin will auto create it)
-        tableName: 'inventories'
+        tableName: 'mc_inventories'
         #User name
         user: 'MYSQ_USERNAME'
         #User password
