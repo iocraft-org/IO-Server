@@ -95,3 +95,5 @@ index.php
 Alpha/
 Alpha/*
 plugins/NodeBBIntegration/config.yml
+plugins/OnTime/backup
+plugins/OnTime/backup/*
