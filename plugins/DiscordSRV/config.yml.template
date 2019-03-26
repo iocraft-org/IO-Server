@@ -190,7 +190,7 @@ ChannelTopicUpdaterRateInMinutes: 5
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!technic": "https://www.technicpack.net/modpack/iocraft", "!curse": "https://minecraft.curseforge.com/projects/iocraft", "!site": "https://www.iocraft.org", "!download": "https://www.iocraft.org/download"}
+DiscordCannedResponses: {"!technic": "https://www.technicpack.net/modpack/iocraft", "!curse": "https://minecraft.curseforge.com/projects/iocraft", "!site": "https://www.iocraft.org"}
 
 # Minecraft to Discord account linking
 # These are the config options pertaining to how linking a Minecraft account to a Discord account functions
