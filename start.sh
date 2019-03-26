@@ -39,6 +39,13 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlInventoryBridge/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlInventoryBridge/config.yml;
 
+	# MySQL Experience Bridge
+	rm plugins/MysqlExperienceBridge/config.yml;
+	sed "s#MYSQL_DATABASE#$MYSQL_DATABASE#g" plugins/MysqlExperienceBridge/config.yml.template > plugins/MysqlExperienceBridge/config.yml;
+	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/MysqlExperienceBridge/config.yml;
+	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlExperienceBridge/config.yml;
+	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlExperienceBridge/config.yml;
+
 	##
 	## End Credentials
 	##
