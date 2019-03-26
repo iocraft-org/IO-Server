@@ -75,7 +75,7 @@ MySQL:
   enable: true
   host: MYSQL_HOSTNAME
   port: 3306
-  user: MYSQ_USERNAME
+  user: MYSQL_USERNAME
   password: MYSQL_PASSWORD
   database: MYSQL_DATABASE
   table: ontime-players
