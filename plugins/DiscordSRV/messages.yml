@@ -174,8 +174,8 @@ MinecraftPlayerAchievementMessagesFormat: ":medal: **%username%** `Just earned t
 # %maxmemorygb%:   max memory of the JVM in GB
 # %tps%:           average TPS of the server
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "<:start:560083588196990976> Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used <:logo:560082978701705237> %date%"
-ChannelTopicUpdaterConsoleChannelTopicFormat: "<:start:560083588196990976> Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used <:logo:560082978701705237> %date%"
+ChannelTopicUpdaterChatChannelTopicFormat: "<:start:560083588196990976> Server is Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used"
+ChannelTopicUpdaterConsoleChannelTopicFormat: "<:start:560083588196990976> Server is Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used"
 ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "<:logo:560082978701705237> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
 ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "<:logo:560082978701705237> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
 
