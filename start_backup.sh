@@ -70,6 +70,13 @@ if ! screen -list | grep -q "iogame"; then
 	rm plugins/AdvancedAchievements*.jar
 	## BACKUP SERVER - ABOVE DISABLES
 
+        # MySQL PermissionsEx
+        rm plugins/PermissionsEx/config.yml;
+        sed "s#MYSQL_DATABASE#$MYSQL_DATABASE#g" plugins/PermissionsEx/config.yml.template > plugins/PermissionsEx/config.yml;
+        sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/PermissionsEx/config.yml;
+        sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/PermissionsEx/config.yml;
+        sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/PermissionsEx/config.yml;
+
 	# MySQL Discord SRV
 	rm plugins/DiscordSRV/config.yml;
 	sed "s#DISCORD_TOKEN#$DISCORD_TOKEN#g" plugins/DiscordSRV/config.yml.template > plugins/DiscordSRV/config.yml;

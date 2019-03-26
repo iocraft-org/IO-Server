@@ -1,0 +1,177 @@
+groups:
+  Stranger:
+    options:
+      prefix: '&8[&aStranger&8]'
+      rank: '900'
+    build: false
+    permissions:
+    - discordsrv.sync.518695492176052244
+    - authme.register
+    - authme.login
+    - authme.logout
+    - authme.changepassword
+    - authme.unregister
+    - essentials.help
+    - essentials.motd
+    - essentials.rules
+  Citizen:
+    inheritance:
+    - Stranger
+    options:
+      prefix: '&8[&2Citizen&8]'
+      default: 'true'
+      rank: '800'
+    build: true
+    permissions:
+    - discordsrv.sync.228826020831166464
+    - essentials.sethome.multiple.citizen
+    - randomtp.use.user.*
+    - randomtp.use.user
+    - randomtp.use.*
+    - cmd.*
+    - Graves.Use
+    - graves.use
+    - help.use
+    - mytown.cmd
+    - mytown.cmd.outsider.*
+    - randomtp.use
+    - randomtp.usesigns
+    - randomtp.gui
+    - essentials.spawn
+    - modifyworld.*
+    - herochat.join.*
+    - herochat.speak.*
+    - herochat.leave.*
+    - -herochat.join.staff
+    - essentials.echo
+    - essentials.pay
+    - essentials.pay.*
+    - essentials.sell
+    - essentials.list
+    - essentials.balance
+    - essentials.chat.shout
+    - essentials.wallet
+    - essentials.pay
+    - essentials.gc
+    - bukkit.command.lag
+    - bukkit.command.tps
+    - -essentials.list.hidden
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.*
+    - essentials.tpa
+    - essentials.nick
+    - essentials.nick.format
+    - essentials.nick.color
+    - essentials.seen
+    - essentials.seen.*
+    - essentials.suicide
+    - essentials.whois
+    - essentials.enderchest
+    - essentials.ping
+    - essentials.spawn
+    - essentials.keepxp
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.delhome
+    - essentials.home
+    - essentials.home.bed
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.citizen
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.geoip.show
+    - essentials.kit
+    - essentials.kits.starter
+    - essentials.bal
+    - essentials.tps
+    - essentials.mail
+    - essentials.mail.*
+  VIP:
+    inheritance:
+    - Citizen
+    options:
+      prefix: '&8[&6VIP&8]'
+      rank: '700'
+    permissions:
+    - discordsrv.sync.424623843059957763
+    - essentials.sethome.multiple.vip
+    - essentials.fly
+    - essentials.fly.safelogin
+    - io.nightvision.player
+    - io.nightvision.use
+  Mod:
+    inheritance:
+    - Citizen
+    options:
+      prefix: '&8[&3Mod&8]'
+      rank: '600'
+    permissions:
+    - discordsrv.sync.424623790199406592
+    - herochat.join.staff
+    - essentials.sethome.multiple.mod
+  GM:
+    inheritance:
+    - Citizen
+    - Mod
+    options:
+      prefix: '&8[&4GM&8]'
+      rank: '500'
+    permissions:
+    - discordsrv.sync.424623754245570570
+    - randomtp.*
+    - essentials.sethome.multiple.gm
+    - help.*
+    - randomtp.*
+    - authme.*
+    - '*'
+  Admin:
+    inheritance:
+    - GM
+    options:
+      prefix: '&8[&9Admin&8]'
+      rank: '400'
+    permissions:
+    - discordsrv.sync.413460388072652810
+    - essentials.sethome.multiple.admin
+    - '*'
+schema-version: 1
+users:
+  4bccd8d3-4e53-4b31-9695-9124de8cc256:
+    group:
+    - GM
+    options:
+      name: moccc
+    permissions:
+    - '*'
+    - essentials.*
+  530fa97a-357f-3c19-94d3-0c5c65c18fe8:
+    group: []
+    options:
+      name: test
+  fc05c1fa-8353-4f14-b4f8-827b841a66ac:
+    group:
+    - GM
+    options:
+      name: DrNaidemoc
+  e9893eaa-6432-447d-97d4-e61369479971:
+    group:
+    - Admin
+    options:
+      name: sys__op
+  4d24640d-6861-447a-8ca6-4eddacf6c9fb:
+    group:
+    - GM
+    - Mod
+    options:
+      name: Miotismon
+  cd37089d-0990-4d13-a252-c364ba0fee6a:
+    group:
+    - VIP
+    options:
+      name: Get_Bang
