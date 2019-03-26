@@ -1,0 +1,70 @@
+# Plan Config | More info at https://www.spigotmc.org/wiki/plan-configuration/
+Settings:
+  Locale: default
+  UseTextUI: false
+  Data:
+    GatherLocations: true
+  Analysis:
+    LogProgressOnConsole: false
+    MinutesPlayedUntilConsidiredActive: 10
+  Cache:
+    Processing:
+      GetLimit: 2000
+      SaveLimit: 1000
+      ClearLimit: 1000
+    AnalysisCache:
+      RefreshAnalysisCacheOnEnable: true
+      RefreshEveryXMinutes: -1
+    InspectCache:
+      ClearFromInspectCacheAfterXMinutes: 5
+    DataCache:
+      SaveEveryXMinutes: 2
+      ClearCacheEveryXSaves: 5
+  WebServer:
+    Enabled: true
+    Port: 7777
+    ShowAlternativeServerIP: true
+    AlternativeIP: play.iocraft.org
+    Security:
+      DisplayIPsAndUUIDs: true
+      AddressSecurityCode: bAkEd
+Customization:
+  Colors:
+    Commands:
+      Main: '&2'
+      Secondary: '&7'
+      Highlight: '&f'
+    HTML:
+      ActivityGraph:
+        OnlinePlayers: 1E90FF
+        OnlinePlayersFill: 75BBFF
+        NewPlayers: 228B22
+      GamemodePie:
+        Survival: '951800'
+        Creative: 01A1DB
+        Adventure: '769316'
+        Spectator: 228B22
+      ActivityPie:
+        Active: 228B22
+        Banned: '951800'
+        Inactive: A9A9A9
+        JoinedOnce: '808080'
+      GenderPie:
+        Female: ED97E3
+        Male: 7CB9D6
+        Unknown: A9A9A9
+  DemographicsTriggers:
+    Trigger: i'm, am, im, bin
+    Female: "female, girl, gurl, woman, gal, mrs, she, miss, feminin, weiblich, m\xc3\
+      \xa4dchen, frau"
+    Male: "male, boy, man, boe, sir, mr, guy, he, m\xc3\xa4nnlich, maskulin, junge,\
+      \ mann"
+    IgnoreWhen: sure, think, with, are, you, din
+database:
+  type: sqlite
+mysql:
+  host: localhost
+  port: 3306
+  user: root
+  password: minecraft
+  database: Plan
