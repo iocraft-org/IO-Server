@@ -11,13 +11,16 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  sample-count: 12
   late-bind: false
+  sample-count: 12
   bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
@@ -28,9 +31,6 @@ messages:
   server-full: The ioCraft.org Server is full, consider VIP!
   outdated-client: Outdated ioCraft.org client! Please use {}
   outdated-server: Outdated ioCraft.org server! I'm still on {}
-commands:
-  log: true
-  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -92,10 +92,10 @@ world-settings:
     max-tnt-per-tick: 100
     mob-spawn-range: 4
     arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
     item-despawn-rate: 6000
+    view-distance: 10
     use-async-lighting: false
-    zombie-aggressive-towards-villager: true
