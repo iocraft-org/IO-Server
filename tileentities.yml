@@ -124,10 +124,10 @@ world-settings:
     zmaster587-advancedRocketry-tile-station-TileStationGravityController:
       tick-no-players: false
       tick-interval: 1
-    powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrillPrecharger:
+    cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrillPrecharger:
       tick-no-players: false
       tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityLaserDrill:

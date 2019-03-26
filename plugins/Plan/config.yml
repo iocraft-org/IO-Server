@@ -55,10 +55,8 @@ Customization:
         Unknown: A9A9A9
   DemographicsTriggers:
     Trigger: i'm, am, im, bin
-    Female: "female, girl, gurl, woman, gal, mrs, she, miss, feminin, weiblich, m\xc3\
-      \xa4dchen, frau"
-    Male: "male, boy, man, boe, sir, mr, guy, he, m\xc3\xa4nnlich, maskulin, junge,\
-      \ mann"
+    Female: female, girl, gurl, woman, gal, mrs, she, miss, feminin, weiblich, mÃ¤dchen, frau
+    Male: male, boy, man, boe, sir, mr, guy, he, mÃ¤nnlich, maskulin, junge, mann
     IgnoreWhen: sure, think, with, are, you, din
 database:
   type: sqlite
