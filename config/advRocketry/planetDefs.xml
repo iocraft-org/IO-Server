@@ -58,7 +58,7 @@
 	</star>
 	<star name="Octavia" temp="50" x="150" y="150" size="2.0" numPlanets="0" numGasGiants="0">
 		<planet name="Varus" DIMID="1008">
-			<isKnown>false</isKnown>
+			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.7160353,0.69217515,1.0</skyColor>
 			<gravitationalMultiplier>130</gravitationalMultiplier>
@@ -68,7 +68,7 @@
 			<atmosphereDensity>62</atmosphereDensity>
 			<biomeIds>27,132,2,38,29</biomeIds>
 			<planet name="Vitellius" DIMID="1009">
-				<isKnown>false</isKnown>
+				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.18821323,0.82254326,1.0</skyColor>
 				<gravitationalMultiplier>85</gravitationalMultiplier>
@@ -79,7 +79,7 @@
 				<biomeIds>24,2,163,155,21</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Odysseus" DIMID="1006" dimMapping="">
+		<planet name="Odysseus" DIMID="1006">
 			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
@@ -89,7 +89,7 @@
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
 			<planet name="Galileo" DIMID="1007">
-				<isKnown>false</isKnown>
+				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>16</gravitationalMultiplier>
