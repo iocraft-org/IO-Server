@@ -176,8 +176,8 @@ MinecraftPlayerAchievementMessagesFormat: ":medal: **%username%** `Just earned t
 #
 ChannelTopicUpdaterChatChannelTopicFormat: "<:start:560083588196990976> Server is Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "<:start:560083588196990976> Server is Online <:logo:560082978701705237> %uptimemins% Minutes <:pulse:560083574142009344> TPS: %tps% <:memory:560083605292974081> %usedmemorygb%GB Mem Used"
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "<:logo:560082978701705237> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "<:logo:560082978701705237> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "<:restart:560085698523299853> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "<:restart:560085698523299853> Server is Offline for Maintenance <:logo:560082978701705237> %totalplayers% Unique Players"
 
 # Discord command message
 # This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
