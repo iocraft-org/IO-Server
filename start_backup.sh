@@ -50,8 +50,7 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_USERNAME/$MYSQL_USERNAME/g" plugins/MysqlInventoryBridge/config.yml;
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/MysqlInventoryBridge/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/MysqlInventoryBridge/config.yml;
-	rm plugins/Mysql*.jar
-	## BACKUP SERVER - ABOVE DISABLES
+	## BACKUP SERVER - KEEP THIS ONE
 
 	# MySQL Experience Bridge
 	rm plugins/MysqlExperienceBridge/config.yml;
