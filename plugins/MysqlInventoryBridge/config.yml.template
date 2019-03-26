@@ -9,11 +9,11 @@ database:
         #MySQL server port (default 3306)
         port: 3306
         #Database name (NOTE! You need to create the database, then the plugin will create the tables.)
-        databaseName: 'MYSQ_DATABASE'
+        databaseName: 'MYSQL_DATABASE'
         #Tables name (the plugin will auto create it)
         tableName: 'mc_inventories'
         #User name
-        user: 'MYSQ_USERNAME'
+        user: 'MYSQL_USERNAME'
         #User password
         password: 'MYSQL_PASSWORD'
         #SSL connection
