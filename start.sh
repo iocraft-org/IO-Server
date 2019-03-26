@@ -53,6 +53,10 @@ if ! screen -list | grep -q "iogame"; then
 	sed -i "s/MYSQL_PASSWORD/$MYSQL_PASSWORD/g" plugins/AdvancedAchievements/config.yml;
 	sed -i "s/MYSQL_HOSTNAME/$MYSQL_HOSTNAME/g" plugins/AdvancedAchievements/config.yml;
 
+	# MySQL Discord SRV
+	rm plugins/DiscordSRV/config.yml;
+	sed "s#DISCORD_TOKEN#$DISCORD_TOKEN#g" plugins/DiscordSRV/config.yml.template > plugins/DiscordSRV/config.yml;
+
 	##
 	## End Credentials
 	##
