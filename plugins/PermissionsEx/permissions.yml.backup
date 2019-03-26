@@ -5,7 +5,7 @@ groups:
       rank: '900'
     build: false
     permissions:
-    - discordsrv.sync.518695492176052244
+    - discordsrv.sync.560148640077971467
     - authme.register
     - authme.login
     - authme.logout
@@ -14,17 +14,17 @@ groups:
     - essentials.help
     - essentials.motd
     - essentials.rules
-  Citizen:
+  User:
     inheritance:
     - Stranger
     options:
-      prefix: '&8[&2Citizen&8]'
+      prefix: '&8[&2User&8]'
       default: 'true'
       rank: '800'
     build: true
     permissions:
-    - discordsrv.sync.228826020831166464
-    - essentials.sethome.multiple.citizen
+    - discordsrv.sync.544885383637499924
+    - essentials.sethome.multiple.user
     - randomtp.use.user.*
     - randomtp.use.user
     - randomtp.use.*
@@ -92,86 +92,46 @@ groups:
     - essentials.tps
     - essentials.mail
     - essentials.mail.*
-  VIP:
+  Privateer:
     inheritance:
-    - Citizen
+    - User
     options:
-      prefix: '&8[&6VIP&8]'
+      prefix: '&8[&6Privateer&8]'
       rank: '700'
     permissions:
-    - discordsrv.sync.424623843059957763
-    - essentials.sethome.multiple.vip
+    - discordsrv.sync.560148178608062464
+    - essentials.sethome.multiple.privateer
     - essentials.fly
     - essentials.fly.safelogin
     - io.nightvision.player
     - io.nightvision.use
-  Mod:
+  Moderator:
     inheritance:
-    - Citizen
+    - Privateer
+    - User
     options:
-      prefix: '&8[&3Mod&8]'
+      prefix: '&8[&3Moderator&8]'
       rank: '600'
     permissions:
-    - discordsrv.sync.424623790199406592
+    - discordsrv.sync.544884763870101534
     - herochat.join.staff
-    - essentials.sethome.multiple.mod
-  GM:
+    - essentials.sethome.multiple.moderator
+  Operator:
     inheritance:
-    - Citizen
-    - Mod
-    options:
-      prefix: '&8[&4GM&8]'
-      rank: '500'
-    permissions:
-    - discordsrv.sync.424623754245570570
-    - randomtp.*
-    - essentials.sethome.multiple.gm
-    - help.*
-    - randomtp.*
-    - authme.*
-    - '*'
-  Admin:
-    inheritance:
-    - GM
+    - Moderator
+    - Privateer
+    - User    
     options:
       prefix: '&8[&9Admin&8]'
       rank: '400'
     permissions:
-    - discordsrv.sync.413460388072652810
-    - essentials.sethome.multiple.admin
+    - discordsrv.sync.544885589095219222
+    - essentials.sethome.multiple.operator
     - '*'
 schema-version: 1
 users:
-  4bccd8d3-4e53-4b31-9695-9124de8cc256:
-    group:
-    - GM
-    options:
-      name: moccc
-    permissions:
-    - '*'
-    - essentials.*
-  530fa97a-357f-3c19-94d3-0c5c65c18fe8:
-    group: []
-    options:
-      name: test
-  fc05c1fa-8353-4f14-b4f8-827b841a66ac:
-    group:
-    - GM
-    options:
-      name: DrNaidemoc
   e9893eaa-6432-447d-97d4-e61369479971:
     group:
     - Admin
     options:
       name: sys__op
-  4d24640d-6861-447a-8ca6-4eddacf6c9fb:
-    group:
-    - GM
-    - Mod
-    options:
-      name: Miotismon
-  cd37089d-0990-4d13-a252-c364ba0fee6a:
-    group:
-    - VIP
-    options:
-      name: Get_Bang
