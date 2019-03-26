@@ -22,6 +22,7 @@ usernamecache.json
 autostart.stamp
 *.so
 plugins/magibridge/MagiBridge.conf
+plugins/OnTime/config.yml
 nucleus/worlddata
 nucleus/worlddata/*
 plugins/resist/spongepress.conf
