@@ -12,15 +12,15 @@
 
 config-version: 7
 settings:
-  late-bind: false
-  sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
+  late-bind: false
+  sample-count: 12
   netty-threads: -1
   bungeecord: false
-  player-shuffle: 0
   fullMatchRate: 10
+  player-shuffle: 0
 messages:
   restart: ioCraft.org Server is Restarting!
   whitelist: You are not whitelisted on ioCraft.org!
@@ -37,7 +37,12 @@ stats:
 world-settings:
   default:
     verbose: false
-    nerf-spawner-mobs: false
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -61,16 +66,9 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-structure-info: true
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
     merge-radius:
       item: 2.5
       exp: 3.0
-    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -91,11 +89,13 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    enable-zombie-pigmen-portal-spawns: true
+    nerf-spawner-mobs: false
+    mob-spawn-range: 4
     arrow-despawn-rate: 1200
-    use-async-lighting: false
+    enable-zombie-pigmen-portal-spawns: true
+    item-despawn-rate: 6000
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    item-despawn-rate: 6000
+    use-async-lighting: false
     zombie-aggressive-towards-villager: true
