@@ -80,7 +80,7 @@
 			</planet>
 		</planet>
 		<planet name="Odysseus" DIMID="1006" dimMapping="">
-			<isKnown>false</isKnown>
+			<isKnown>true</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
