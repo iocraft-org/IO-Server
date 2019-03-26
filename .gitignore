@@ -34,6 +34,7 @@ plugins/MysqlInventoryBridge/config.yml
 plugins/MysqlExperienceBridge/config.yml
 plugins/AdvancedAchievements/config.yml
 plugins/DiscordSRV/config.yml
+plugins/PermissionsEx/config.yml
 banned-ips.json
 banned-players.json
 usercache.json

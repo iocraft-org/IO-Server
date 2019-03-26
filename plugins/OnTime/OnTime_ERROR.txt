@@ -1,0 +1,4 @@
+OnTime v4.1.4 [03/26/2019 16:20:47] [DUPLICATE USER NAME] sys__op already has record under UUID: e9893eaa-6432-447d-97d4-e61369479971 but has logged in with UUID: b1269815-3ec5-3a5f-b3bf-7305a7aa7763
+OnTime v4.1.4 [03/26/2019 16:20:47] Player Login Failed: sys__op already has OnTime record under different UUID : (e9893eaa-6432-447d-97d4-e61369479971)
+OnTime v4.1.4 [03/26/2019 16:21:56] {logout} sys__op was not marked as 'online' by ontime.  Logout failed. No data update. 
+OnTime v4.1.4 [03/26/2019 16:24:44] {logout} sys__op was not marked as 'online' by ontime.  Logout failed. No data update. 
