@@ -1,6 +1,6 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553614163296
+  login: 1553614815013
   logout: 1553613147635
   lastteleport: 1553613501765
   kits:
@@ -12,8 +12,8 @@ logoutlocation:
   x: 0.0
   y: 80.0
   z: 0.0
-  yaw: -187.05
-  pitch: 13.200001
+  yaw: -165.45003
+  pitch: 9.600001
 lastlocation:
   world: advRocketry/DIM1003
   x: 8.5
