@@ -1,64 +1,66 @@
-{
-  "dimID": 1001,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1002,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1003,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1004,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1005,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1006,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1007,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-},
-{
-  "dimID": 1008,
-  "genTop": false,
-  "genBottom": true,
-  "retroGenTop": false,
-  "retroGenBottom": true,
-  "fillBlock": "minecraft:stone"
-}
+[
+  {
+    "dimID": 1001,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1002,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1003,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1004,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1005,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1006,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1007,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  },
+  {
+    "dimID": 1008,
+    "genTop": false,
+    "genBottom": true,
+    "retroGenTop": false,
+    "retroGenBottom": true,
+    "fillBlock": "minecraft:stone"
+  }
+]
