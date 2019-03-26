@@ -1,0 +1,26 @@
+multiserver:
+  use-netevents: true
+permissions:
+  debug: false
+  allowOps: false
+  user-add-groups-last: false
+  log-players: false
+  createUserRecords: false
+  backend: sql
+  informplayers:
+    changes: true
+  basedir: plugins/PermissionsEx
+  backends:
+    file:
+      type: file
+      file: permissions.yml
+    sql:
+      uri: mysql://MYSQL_HOSTNAME:3306/MYSQL_DATABASE
+      user: MYSQL_USERNAME
+      password: MYSQL_PASSWORD
+      aliases:
+         permissions: mc_permissions
+         permissions_inheritance: mc_inheritance
+         permissions_entity: mc_entity
+updater: false
+alwaysUpdate: false
