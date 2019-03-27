@@ -273,7 +273,7 @@ backup:
   interval: 90
   # Unless you add a valid backup command or script here, this feature will be useless.
   # Use 'save-all' to simply force regular world saving without backup.
-  command: '/storage/server/backup.sh'
+  command: '/storage/IO-Server/backup.sh'
 
 # Set this true to enable permission per warp.
 per-warp-permission: true
