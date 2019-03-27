@@ -11,6 +11,9 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
   late-bind: false
   sample-count: 12
@@ -28,15 +31,16 @@ messages:
   server-full: The ioCraft.org Server is full, consider VIP!
   outdated-client: Outdated ioCraft.org client! Please use {}
   outdated-server: Outdated ioCraft.org server! I'm still on {}
-commands:
-  log: true
-  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 5
     max-entity-collisions: 8
@@ -44,6 +48,10 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
+    mob-spawn-range: 4
+    merge-radius:
+      item: 2.5
+      exp: 3.0
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -83,19 +91,11 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    random-light-updates: false
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    mob-spawn-range: 4
     item-despawn-rate: 6000
-    enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
-    view-distance: 10
+    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
     clear-tick-list: false
+    view-distance: 10
     use-async-lighting: false
-    zombie-aggressive-towards-villager: true
