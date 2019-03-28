@@ -15,12 +15,12 @@ commands:
   log: true
   tab-complete: true
 settings:
+  late-bind: false
+  sample-count: 12
   netty-threads: -1
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  sample-count: 12
-  late-bind: false
   bungeecord: true
   fullMatchRate: 10
   player-shuffle: 0
@@ -37,6 +37,15 @@ stats:
 world-settings:
   default:
     verbose: false
+    mob-spawn-range: 4
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -58,19 +67,9 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    nerf-spawner-mobs: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
     merge-radius:
       item: 2.5
       exp: 3.0
-    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -91,11 +90,12 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
     use-async-lighting: false
     zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
