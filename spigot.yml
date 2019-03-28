@@ -21,7 +21,7 @@ settings:
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  bungeecord: false
+  bungeecord: true
   fullMatchRate: 10
   player-shuffle: 0
 messages:
