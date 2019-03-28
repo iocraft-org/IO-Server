@@ -12,11 +12,11 @@
 
 config-version: 7
 settings:
+  late-bind: false
+  sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
-  late-bind: false
-  sample-count: 12
   netty-threads: -1
   bungeecord: false
   fullMatchRate: 10
@@ -37,11 +37,6 @@ stats:
 world-settings:
   default:
     verbose: false
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -66,6 +61,12 @@ world-settings:
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 5
+    max-entity-collisions: 8
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
+    mob-spawn-range: 4
     merge-radius:
       item: 2.5
       exp: 3.0
@@ -90,12 +91,11 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
-    mob-spawn-range: 4
     arrow-despawn-rate: 1200
-    zombie-aggressive-towards-villager: true
     item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: true
     chunks-per-tick: 650
     clear-tick-list: false
-    enable-zombie-pigmen-portal-spawns: true
+    zombie-aggressive-towards-villager: true
     view-distance: 10
     use-async-lighting: false
