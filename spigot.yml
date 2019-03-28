@@ -37,14 +37,7 @@ stats:
 world-settings:
   default:
     verbose: false
-    growth:
-      cactus-modifier: 100
-      cane-modifier: 100
-      melon-modifier: 100
-      mushroom-modifier: 100
-      pumpkin-modifier: 100
-      sapling-modifier: 100
-      wheat-modifier: 100
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -61,12 +54,20 @@ world-settings:
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 5
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 100
+      cane-modifier: 100
+      melon-modifier: 100
+      mushroom-modifier: 100
+      pumpkin-modifier: 100
+      sapling-modifier: 100
+      wheat-modifier: 100
     max-entity-collisions: 8
     max-tick-time:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    mob-spawn-range: 4
     merge-radius:
       item: 2.5
       exp: 3.0
@@ -90,12 +91,11 @@ world-settings:
       replace-blocks:
       - 1
       - 5
-    nerf-spawner-mobs: false
     arrow-despawn-rate: 1200
     item-despawn-rate: 6000
+    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
     chunks-per-tick: 650
     clear-tick-list: false
-    zombie-aggressive-towards-villager: true
-    view-distance: 10
     use-async-lighting: false
+    zombie-aggressive-towards-villager: true
