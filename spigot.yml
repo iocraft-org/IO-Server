@@ -21,7 +21,7 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  bungeecord: true
+  bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
 messages:
