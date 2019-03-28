@@ -21,7 +21,7 @@ settings:
   restart-script: ./start.sh
   netty-threads: -1
   late-bind: false
-  bungeecord: true
+  bungeecord: false
   fullMatchRate: 10
   player-shuffle: 0
 messages:
