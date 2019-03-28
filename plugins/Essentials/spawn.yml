@@ -2,31 +2,31 @@ spawns:
   default: 
     world: advRocketry/DIM1001
     x: 0.5
-    y: 67.09248101426999
+    y: 67.83059758426687
     z: 0.5
-    yaw: -77.91795
-    pitch: 5.700008
+    yaw: -18.218079
+    pitch: 11.100009
   stranger: 
     world: advRocketry/DIM1001
     x: 0.5
-    y: 67.09248101426999
+    y: 67.83059758426687
     z: 0.5
-    yaw: -77.91795
-    pitch: 5.700008
+    yaw: -18.218079
+    pitch: 11.100009
   citizen: 
     world: advRocketry/DIM1001
     x: 0.5
-    y: 67.09248101426999
+    y: 67.83059758426687
     z: 0.5
-    yaw: -77.91795
-    pitch: 5.700008
+    yaw: -18.218079
+    pitch: 11.100009
   operator: 
     world: advRocketry/DIM1001
     x: 0.5
-    y: 67.09248101426999
+    y: 67.83059758426687
     z: 0.5
-    yaw: -77.91795
-    pitch: 5.700008
+    yaw: -18.218079
+    pitch: 11.100009
   admin: 
     world: advRocketry/DIM1001
     x: 0.5
@@ -50,8 +50,22 @@ spawns:
     pitch: -31.800018
   privateer: 
     world: advRocketry/DIM1001
-    x: -0.8201976268600172
-    y: 46.07485524163958
-    z: -10.699999988079071
-    yaw: -1.8019354
-    pitch: -1.9499437
+    x: 0.5
+    y: 67.83059758426687
+    z: 0.5
+    yaw: -18.218079
+    pitch: 11.100009
+  user: 
+    world: advRocketry/DIM1001
+    x: 0.5
+    y: 67.83059758426687
+    z: 0.5
+    yaw: -18.218079
+    pitch: 11.100009
+  moderator: 
+    world: advRocketry/DIM1001
+    x: 0.5
+    y: 67.83059758426687
+    z: 0.5
+    yaw: -18.218079
+    pitch: 11.100009

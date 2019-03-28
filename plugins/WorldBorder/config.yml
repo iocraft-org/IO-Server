@@ -57,3 +57,9 @@ worlds:
     radiusX: 500
     radiusZ: 500
     wrapping: false
+  advRocketry/DIM1006:
+    x: 0.9129762212581111
+    z: 16.69999998807907
+    radiusX: 500
+    radiusZ: 500
+    wrapping: false
