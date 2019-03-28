@@ -1,4 +1,4 @@
-![](https://www.iocraft.org/mini.png)
+![](https://github.com/iocraft-org/IO-Extras/raw/master/images/64x64.png)
 >>>>>>> # IO-Server
 Our ioCraft.org Minecraft server.
 # Requirements
