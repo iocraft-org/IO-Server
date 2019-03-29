@@ -157,14 +157,14 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
   endoftime:
     keep-world-loaded: true
   underdark:
     keep-world-loaded: false
   space:
     keep-world-loaded: true
-  storage:
-    keep-world-loaded: false
   planet:
     keep-world-loaded: false
     enabled: true
