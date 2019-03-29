@@ -345,7 +345,7 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "&7[&f&lIO&r&7] &r&3Welcome to the server &l{USERNAME}&r&3!"
+custom-join-message: "&7[&f&lIO&r&7] &r&3Welcome to the server &l&f{USERNAME}&r&3!"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.

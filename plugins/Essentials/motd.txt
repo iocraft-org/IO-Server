@@ -1,5 +1,4 @@
 §8§m==============&7  &LioCraft.org &8&m==============
-Welcome to the server &b{PLAYER}&r!
 §7Web: §ehttps://www.iocraft.org
 §7Discord: §ehttps://discord.gg/V72fB6D
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
