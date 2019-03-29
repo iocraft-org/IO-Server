@@ -1,11 +1,4 @@
 spawns: 
-  Operator: 
-    world: world
-    x: -51.5
-    y: 38.0
-    z: -1.5
-    yaw: -179.8455
-    pitch: 0.2999986
   default: 
     world: world
     x: -51.5
