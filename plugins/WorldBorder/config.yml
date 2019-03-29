@@ -22,10 +22,10 @@ worlds:
     radiusZ: 500
     wrapping: false
   world:
-    x: 0.0
-    z: 0.0
-    radiusX: 200
-    radiusZ: 200
+    x: -51.5
+    z: -1.5
+    radiusX: 100
+    radiusZ: 100
     wrapping: false
   advRocketry/DIM1002:
     x: 0.0
