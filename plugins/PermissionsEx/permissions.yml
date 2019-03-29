@@ -104,7 +104,7 @@ groups:
     inheritance:
     - Moderator
     - Privateer
-    - default    
+    - default
     options:
       prefix: '&8[&9Admin&8]'
       rank: '400'
@@ -113,3 +113,9 @@ groups:
     - essentials.sethome.multiple.operator
     - '*'
 schema-version: 1
+users:
+  e9893eaa-6432-447d-97d4-e61369479971:
+    group:
+    - Operator
+    options:
+      name: sys__op
