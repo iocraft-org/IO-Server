@@ -15,11 +15,12 @@ groups:
     - essentials.motd
     - essentials.rules
   User:
+    default: true
     inheritance:
     - Stranger
     options:
       prefix: '&8[&2User&8]'
-      default: 'true'
+      default: true
       rank: '800'
     build: true
     permissions:
