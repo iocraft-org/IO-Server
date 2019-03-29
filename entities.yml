@@ -42,11 +42,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityZombie:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+    net-minecraft-entity-monster-EntityCreeper:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -54,7 +50,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntitySquid:
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -62,19 +62,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySquid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-passive-EntityBat:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityCreeper:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -83,6 +79,10 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     zmaster587-advancedRocketry-entity-EntityRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-netherores-entity-EntityHellfish:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -98,19 +98,23 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    matteroverdrive-entity-weapon-PlasmaBolt:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    powercrystals-netherores-entity-EntityHellfish:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntityWitch:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityEnderman:
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-weapon-PlasmaBolt:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -151,10 +155,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityMinecartChest:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
