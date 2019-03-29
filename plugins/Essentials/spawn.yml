@@ -1,71 +1,57 @@
 spawns: 
   default: 
-    world: advRocketry/DIM1001
-    x: 5.31745039458862
-    y: 66.0
-    z: -1.6032424316762026
-    yaw: -114.300026
-    pitch: 12.749987
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   stranger: 
-    world: advRocketry/DIM1001
-    x: -2.265927192867336
-    y: 66.0
-    z: 0.37079836262646115
-    yaw: -87.818085
-    pitch: 4.8000016
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   citizen: 
-    world: advRocketry/DIM1001
-    x: 0.5
-    y: 67.83059758426687
-    z: 0.5
-    yaw: -18.218079
-    pitch: 11.100009
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   operator: 
-    world: advRocketry/DIM1001
-    x: 0.5
-    y: 67.83059758426687
-    z: 0.5
-    yaw: -18.218079
-    pitch: 11.100009
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   admin: 
-    world: advRocketry/DIM1001
-    x: 0.5
-    y: 67.09248101426999
-    z: 0.5
-    yaw: -77.91795
-    pitch: 5.700008
-  mod: 
-    world: advRocketry/DIM1001
-    x: -33.09718443087799
-    y: 64.0
-    z: 124.69351943635104
-    yaw: -288.90094
-    pitch: -31.800018
-  dev: 
-    world: advRocketry/DIM1001
-    x: -33.09718443087799
-    y: 64.0
-    z: 124.69351943635104
-    yaw: -288.90094
-    pitch: -31.800018
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   privateer: 
-    world: advRocketry/DIM1001
-    x: 0.5
-    y: 67.83059758426687
-    z: 0.5
-    yaw: -18.218079
-    pitch: 11.100009
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   user: 
-    world: advRocketry/DIM1001
-    x: -3.0
-    y: 67.0
-    z: 10.0
-    yaw: 25.499985
-    pitch: 7.650002
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986
   moderator: 
-    world: advRocketry/DIM1001
-    x: 0.5
-    y: 67.83059758426687
-    z: 0.5
-    yaw: -18.218079
-    pitch: 11.100009
+    world: world
+    x: -51.384676740566015
+    y: 39.0
+    z: -1.3000000119209294
+    yaw: -179.8455
+    pitch: 0.2999986

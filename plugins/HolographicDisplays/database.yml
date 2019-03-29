@@ -6,11 +6,15 @@ ore:
   location: advRocketry/DIM1001, -449.956, 71.567, -46.036
   lines:
   - Ore Mining and Processing Research
-welcome1:
-  location: advRocketry/DIM1001, 2.349, 68.193, 0.497
-  lines:
-  - Welcome
 welcome2:
   location: advRocketry/DIM1001, 2.349, 67.453, 0.497
   lines:
   - to ioCraft.org
+welcome1:
+  location: world, -51.580, 39.940, -4.700
+  lines:
+  - Welcome to &7[&8&lioCraft.org&r&7]
+startworld:
+  location: world, -51.500, 44.580, -3.278
+  lines:
+  - Portal to &l&4Starting Zone
