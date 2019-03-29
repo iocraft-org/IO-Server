@@ -124,13 +124,13 @@ world-settings:
     zmaster587-advancedRocketry-tile-station-TileStationGravityController:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp3:
-      tick-no-players: false
-      tick-interval: 1
     crazypants-enderio-machine-light-TileElectricLight:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileHealthPad:
       tick-no-players: false
       tick-interval: 1
     io-endertech-tile-TileChargePad:
@@ -139,7 +139,7 @@ world-settings:
     cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
-    io-endertech-tile-TileHealthPad:
+    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
