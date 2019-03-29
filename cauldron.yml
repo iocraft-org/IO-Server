@@ -108,30 +108,30 @@ world-settings:
     infinite-water-source: true
     entity-despawn-immediate: false
     worldgen-voltzengine-OreGenReplace: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-TConstruct-SlimeIslandGen: true
     worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
     worldgen-SGCraft-NaquadahOreWorldGen: true
     worldgen-CoFHCore-WorldHandler: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
     worldgen-ExtraBees-ModuleGeneration: true
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
     worldgen-Forestry-WorldGenerator: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-denseores-WorldGenOres: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ASRuins-RuinsWorldGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-advancedRocketry-OreGenerator: true
-    worldgen-rftools-GenericWorldGenerator: true
     worldgen-Techguns-OreGenerator: true
     worldgen-lightsabers-WorldGeneratorOres: true
     worldgen-lightsabers-WorldGeneratorStructures: true
     worldgen-dldungeonsjdg-GenerationHandler: true
-    worldgen-ASRuins-RuinsWorldGenerator: true
     worldgen-Mekanism-GenHandler: true
     worldgen-WarpDrive-CommonWorldGenerator: true
   max-players-visible: -1
