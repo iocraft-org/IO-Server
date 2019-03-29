@@ -31,25 +31,19 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
     net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
-    org-blockartistry-mod-ThermalRecycling-machines-entity-VendingTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    mcjty-rftools-blocks-logic-SequencerTileEntity:
+    net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-CastingBasinLogic:
       tick-no-players: false
       tick-interval: 1
-    blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
+    tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
+    mcjty-rftools-blocks-logic-SequencerTileEntity:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityGravitationalAnomaly:
@@ -61,13 +55,19 @@ world-settings:
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityWeaponStation:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityTritaniumCrate:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityWeaponStation:
+      tick-no-players: false
+      tick-interval: 1
+    org-blockartistry-mod-ThermalRecycling-machines-entity-VendingTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-FenceGateTileEntity:
