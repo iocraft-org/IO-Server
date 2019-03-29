@@ -1,7 +1,7 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553841285232
-  logout: 1553841270955
+  login: 1553841516592
+  logout: 1553841506444
   lastteleport: 1553841009404
   kits:
     tools: 1553781421820
@@ -9,16 +9,16 @@ ipAddress: 75.129.254.61
 afk: false
 logoutlocation:
   world: world
-  x: -51.5
-  y: 38.0
-  z: -1.5
-  yaw: -179.69551
-  pitch: 0.1499986
+  x: -51.78126815708079
+  y: 42.0
+  z: -4.453081791503409
+  yaw: -6.1454773
+  pitch: 6.5999956
 lastlocation:
   world: world
-  x: -54.5
-  y: 67.0
-  z: 5.5
+  x: -50.5
+  y: 66.0
+  z: -3.5
   yaw: 0.0
   pitch: 0.0
 money: '298.0'

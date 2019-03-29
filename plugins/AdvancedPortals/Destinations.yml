@@ -1,7 +1,16 @@
-
+# 
 #  ExampleDestination:
 #    world: it will be the world name
 #    pos:
 #      X:
 #      Y:
 #      Z:
+
+alpha:
+  world: world
+  pos:
+    X: -51.5
+    Y: 38.0
+    Z: -1.5
+    pitch: 0.2999986
+    yaw: -179.8455
