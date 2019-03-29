@@ -18,7 +18,7 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-entity-passive-EntityVillager:
+    net-minecraft-entity-item-EntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -26,11 +26,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityItemFrame:
+    net-minecraft-entity-passive-EntityVillager:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityItem:
+    net-minecraft-entity-item-EntityItemFrame:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
