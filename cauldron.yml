@@ -107,24 +107,25 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-voltzengine-OreGenReplace: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-Forestry-WorldGenerator: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
     worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-denseores-WorldGenOres: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
     worldgen-CoFHCore-WorldHandler: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-TConstruct-SlimeIslandGen: true
     worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-denseores-WorldGenOres: true
     worldgen-advancedRocketry-OreGenerator: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-rftools-GenericWorldGenerator: true
     worldgen-Techguns-OreGenerator: true
     worldgen-lightsabers-WorldGeneratorOres: true
@@ -163,6 +164,17 @@ world-environment-settings:
     keep-world-loaded: true
   underdark:
     keep-world-loaded: false
+  orbit:
+    keep-world-loaded: true
+  asteroids:
+    keep-world-loaded: true
+    enabled: true
+  mars:
+    keep-world-loaded: true
+    enabled: true
+  moon:
+    keep-world-loaded: true
+    enabled: true
   space:
     keep-world-loaded: true
   planet:
