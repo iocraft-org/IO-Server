@@ -19,6 +19,6 @@ spawntoalpha:
   lines:
   - '&fPortal to Planet Alpha'
 alphatospawn:
-  location: advRocketry/DIM1001, 6.411, 72.200, 0.531
+  location: advRocketry/DIM1001, 6.630, 72.200, 0.547
   lines:
-  - '&fPortal to Spawn'
+  - '&fPortal to &lSpawn'
