@@ -14,7 +14,11 @@ welcome1:
   location: world, -51.580, 39.940, -4.700
   lines:
   - Welcome to &7[&8&lioCraft.org&r&7]
-startworld:
-  location: world, -51.500, 44.580, -3.278
+spawntoalpha:
+  location: world, -51.559, 43.815, -3.449
   lines:
-  - Portal to &l&4Starting Zone
+  - '&fPortal to Planet Alpha'
+alphatospawn:
+  location: advRocketry/DIM1001, 6.411, 72.200, 0.531
+  lines:
+  - '&fPortal to Spawn'

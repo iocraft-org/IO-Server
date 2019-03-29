@@ -1,4 +1,4 @@
-
+# 
 #  ExamplePortal:
 #    world: it will be the world name
 #    triggerblock: LAVA # will only be used if the hastriggerblock is true and can be id or text
@@ -17,3 +17,28 @@
 #        X:
 #        Y:
 #        Z:
+
+SpawnToAlpha:
+  world: world
+  triggerblock: STATIONARY_WATER
+  destination: alphaspawn
+  pos1:
+    X: -49
+    Y: 45
+    Z: 0
+  pos2:
+    X: -55
+    Y: 41
+    Z: 0
+AlphaToSpawn:
+  world: advRocketry/DIM1001
+  triggerblock: STATIONARY_WATER
+  destination: spawn
+  pos1:
+    X: 6
+    Y: 69
+    Z: 2
+  pos2:
+    X: 6
+    Y: 65
+    Z: -2

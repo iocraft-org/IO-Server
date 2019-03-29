@@ -6,11 +6,27 @@
 #      Y:
 #      Z:
 
-alpha:
+'"alphaspawn"':
+  world: advRocketry/DIM1001
+  pos:
+    X: 0.8409366759266126
+    Y: 66.0
+    Z: 0.46681592139568606
+    pitch: 1.8000004
+    yaw: -270.77353
+alphaspawn:
+  world: advRocketry/DIM1001
+  pos:
+    X: 0.2454251939902362
+    Y: 66.0
+    Z: 0.3845086000529716
+    pitch: 25.949995
+    yaw: 90.5766
+spawn:
   world: world
   pos:
     X: -51.5
     Y: 38.0
     Z: -1.5
-    pitch: 0.2999986
-    yaw: -179.8455
+    pitch: 11.5499935
+    yaw: -182.72359
