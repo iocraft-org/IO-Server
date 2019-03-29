@@ -46,7 +46,7 @@ world-settings:
     crazypants-enderio-machine-tank-TileTank:
       tick-no-players: false
       tick-interval: 1
-    forestry-apiculture-tiles-TileSwarm:
+    matteroverdrive-tile-TileEntityGravitationalAnomaly:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
@@ -55,7 +55,19 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+    forestry-apiculture-tiles-TileSwarm:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-light-TileElectricLight:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileHealthPad:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileChargePad:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp2:
@@ -122,18 +134,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     zmaster587-advancedRocketry-tile-station-TileStationGravityController:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-light-TileElectricLight:
-      tick-no-players: false
-      tick-interval: 1
-    io-endertech-tile-TileHealthPad:
-      tick-no-players: false
-      tick-interval: 1
-    io-endertech-tile-TileChargePad:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-DoorTileEntity:
