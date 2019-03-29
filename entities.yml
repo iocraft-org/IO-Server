@@ -54,11 +54,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntitySkeleton:
+    net-minecraft-entity-monster-EntityZombie:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityZombie:
+    net-minecraft-entity-monster-EntitySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -78,6 +78,14 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
       tick-no-players: false
       never-ever-tick: false
@@ -90,15 +98,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-player-EntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     cofh-thermalfoundation-entity-monster-EntityBlitz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

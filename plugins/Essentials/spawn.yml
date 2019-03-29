@@ -1,11 +1,11 @@
 spawns: 
   default: 
     world: advRocketry/DIM1001
-    x: -3.0
-    y: 67.0
-    z: 10.0
-    yaw: 25.499985
-    pitch: 7.650002
+    x: 5.31745039458862
+    y: 66.0
+    z: -1.6032424316762026
+    yaw: -114.300026
+    pitch: 12.749987
   stranger: 
     world: advRocketry/DIM1001
     x: -2.265927192867336
