@@ -6,7 +6,7 @@ permissions:
   user-add-groups-last: false
   log-players: false
   createUserRecords: false
-  backend: sql
+  backend: file
   informplayers:
     changes: true
   basedir: plugins/PermissionsEx

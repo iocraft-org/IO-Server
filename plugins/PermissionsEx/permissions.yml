@@ -1,33 +1,16 @@
 groups:
-  Stranger:
-    options:
-      prefix: '&8[&aStranger&8]'
-      rank: '900'
-    build: false
-    permissions:
-    - discordsrv.sync.560148640077971467
-    - authme.register
-    - authme.login
-    - authme.logout
-    - authme.changepassword
-    - authme.unregister
-    - essentials.help
-    - essentials.motd
-    - essentials.rules
-  User:
-    default: true
-    inheritance:
-    - Stranger
+  default:
+    default: 'true'
     options:
       prefix: '&8[&2User&8]'
-      default: true
+      default: 'true'
       rank: '800'
     build: true
     permissions:
     - discordsrv.sync.544885383637499924
-    - essentials.sethome.multiple.user
-    - randomtp.use.user.*
-    - randomtp.use.user
+    - essentials.sethome.multiple.default
+    - randomtp.use.default.*
+    - randomtp.use.default
     - randomtp.use.*
     - cmd.*
     - Graves.Use
@@ -80,7 +63,7 @@ groups:
     - essentials.sethome
     - essentials.sethome.bed
     - essentials.sethome.multiple
-    - essentials.sethome.multiple.citizen
+    - essentials.sethome.multiple.default
     - essentials.warp
     - essentials.warp.list
     - essentials.tpa
@@ -95,7 +78,7 @@ groups:
     - essentials.mail.*
   Privateer:
     inheritance:
-    - User
+    - default
     options:
       prefix: '&8[&6Privateer&8]'
       rank: '700'
@@ -109,7 +92,7 @@ groups:
   Moderator:
     inheritance:
     - Privateer
-    - User
+    - default
     options:
       prefix: '&8[&3Moderator&8]'
       rank: '600'
@@ -121,7 +104,7 @@ groups:
     inheritance:
     - Moderator
     - Privateer
-    - User    
+    - default    
     options:
       prefix: '&8[&9Admin&8]'
       rank: '400'
@@ -130,9 +113,3 @@ groups:
     - essentials.sethome.multiple.operator
     - '*'
 schema-version: 1
-users:
-  e9893eaa-6432-447d-97d4-e61369479971:
-    group:
-    - Operator
-    options:
-      name: sys__op
