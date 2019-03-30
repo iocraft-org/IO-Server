@@ -34,6 +34,15 @@ world-settings:
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityWeaponStation:
       tick-no-players: false
       tick-interval: 1
@@ -41,9 +50,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
@@ -73,9 +79,6 @@ world-settings:
     net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
     tconstruct-smeltery-logic-CastingBasinLogic:
       tick-no-players: false
       tick-interval: 1
@@ -89,9 +92,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:

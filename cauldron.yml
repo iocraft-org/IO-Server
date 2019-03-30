@@ -107,26 +107,26 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-voltzengine-OreGenReplace: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
     worldgen-mo-MOWorldGen: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
     worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-SGCraft-NaquadahOreWorldGen: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
     worldgen-denseores-WorldGenOres: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
     worldgen-ASRuins-RuinsWorldGenerator: true
     worldgen-advancedRocketry-OreGenerator: true
     worldgen-Techguns-OreGenerator: true
