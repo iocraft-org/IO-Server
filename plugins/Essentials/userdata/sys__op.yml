@@ -1,8 +1,10 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553860564671
-  logout: 1553860621738
+  login: 1553862660180
+  logout: 1553862726268
   lastteleport: 1553860600318
+  kits:
+    tools: 1553862694588
 ipAddress: 75.129.254.61
 lastlocation:
   world: world
@@ -14,8 +16,8 @@ lastlocation:
 money: '298.0'
 logoutlocation:
   world: world
-  x: 123.68752845462778
-  y: 69.0
-  z: -27.008226775083415
-  yaw: -77.85007
-  pitch: 12.299993
+  x: 29.314822731307636
+  y: 70.0
+  z: -95.78189635810404
+  yaw: -223.35043
+  pitch: 19.799978
