@@ -30,10 +30,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-passive-EntityPig:
       tick-no-players: false
       never-ever-tick: false
@@ -47,6 +43,10 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     com-enm-mob-javapower-EntityJavaPowerMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
