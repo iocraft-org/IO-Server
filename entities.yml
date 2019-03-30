@@ -22,11 +22,31 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityPig:
+    net-minecraft-entity-passive-EntityChicken:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityPig:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityCow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityMinecartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-enm-mob-javapower-EntityJavaPowerMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -62,10 +82,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityChicken:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
       tick-no-players: false
       never-ever-tick: false
@@ -83,10 +99,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-passive-EntityVillager:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -111,14 +123,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityItemFrame:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityCow:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityMinecartChest:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
