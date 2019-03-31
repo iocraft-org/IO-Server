@@ -1,7 +1,7 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1553926374827
-  logout: 1553926966952
+  login: 1554068932051
+  logout: 1554071102604
   lastteleport: 1553926941194
   kits:
     tools: 1553862694588
@@ -29,3 +29,4 @@ homes:
     z: 228.30000001192093
     yaw: -74.25073
     pitch: 20.099892
+afk: false
