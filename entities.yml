@@ -26,11 +26,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityWolf:
+    net-minecraft-entity-passive-EntityChicken:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityChicken:
+    net-minecraft-entity-passive-EntityWolf:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
