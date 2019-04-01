@@ -37,10 +37,10 @@ world-settings:
     net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+    net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityWeaponStation:
