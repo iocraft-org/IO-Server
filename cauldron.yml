@@ -164,6 +164,10 @@ world-environment-settings:
     keep-world-loaded: true
   underdark:
     keep-world-loaded: false
+  space:
+    keep-world-loaded: true
+  hyperspace:
+    keep-world-loaded: true
   orbit:
     keep-world-loaded: true
   asteroids:
@@ -175,13 +179,9 @@ world-environment-settings:
   moon:
     keep-world-loaded: true
     enabled: true
-  space:
-    keep-world-loaded: true
   planet:
     keep-world-loaded: false
     enabled: true
-  hyperspace:
-    keep-world-loaded: true
   tatooine:
     keep-world-loaded: true
   endor:
