@@ -19,7 +19,7 @@ Inventory:
       name: '&8[&a+&8] &aBasic &8[&a+&8]'
       cost: 0
       distance: 250
-      world: Universe
+      world: world
       cooldown: 60
       permission: randomtp.use.user
       lore:
@@ -33,7 +33,7 @@ Inventory:
       name: '&8[&a+&8] &aAir Jordan &8[&a+&8]'
       cost: 2
       distance: 500
-      world: Universe
+      world: world
       cooldown: 60
       permission: randomtp.use.user
       lore:
@@ -47,7 +47,7 @@ Inventory:
       name: '&8[&a+&8] &aNeil Armstrong &8[&a+&8]'
       cost: 5
       distance: 1000
-      world: Universe
+      world: world
       cooldown: 300
       permission: randomtp.use.vip
       lore:
