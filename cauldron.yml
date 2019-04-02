@@ -107,26 +107,26 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-voltzengine-OreGenReplace: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-SGCraft-NaquadahOreWorldGen: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
     worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
     worldgen-Forestry-WorldGenerator: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-ASRuins-RuinsWorldGenerator: true
     worldgen-advancedRocketry-OreGenerator: true
     worldgen-Techguns-OreGenerator: true
