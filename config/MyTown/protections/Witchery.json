@@ -1,0 +1,59 @@
+{
+  "modid": "witchery",
+  "segments": [
+    {
+      "class": "com.emoniph.witchery.item.ItemTaglockKit",
+      "type": "item",
+      "actions": "RIGHT_CLICK_ENTITY",
+      "isAdjacent": false,
+      "flags": "PVP"
+    },
+    {
+      "class": "com.emoniph.witchery.item.ItemHornOfTheHunt",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "com.emoniph.witchery.item.ItemSunGrenade",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "com.emoniph.witchery.entity.EntityWitchProjectile",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 50
+    },
+    {
+      "class": "com.emoniph.witchery.entity.EntityHornedHuntsman",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS",
+      "range": 50
+    },
+    {
+      "class": "com.emoniph.witchery.item.ItemBucketSpirit",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 8
+    },
+    {
+      "class": "com.emoniph.witchery.entity.EntityGrenade",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS",
+      "range": 50
+    }
+  ]
+}

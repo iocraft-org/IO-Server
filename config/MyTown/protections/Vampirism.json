@@ -1,0 +1,165 @@
+{
+  "modid": "vampirism",
+  "segments": [
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampire",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampire",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampire",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+	{
+      "class": "de.teamlapen.vampirism.entity.EntityVampireHunter",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireHunter",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireHunter",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+	{
+      "class": "de.teamlapen.vampirism.entity.EntityGhost",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityGhost",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityGhost",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+	{
+      "class": "de.teamlapen.vampirism.entity.EntityVampireLord",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireLord",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireLord",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+	{
+      "class": "de.teamlapen.vampirism.entity.EntityVampireMinion",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireMinion",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "de.teamlapen.vampirism.entity.EntityVampireMinion",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    }
+  ]
+}

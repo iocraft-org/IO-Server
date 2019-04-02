@@ -1,0 +1,105 @@
+{
+  "modid": "IC2",
+  "segments": [
+    {
+      "class": "ic2.core.block.EntityIC2Explosive",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "igniter",
+          "type": "FIELD"
+        }
+      ],
+      "range": [
+        {
+          "element": "explosivePower * 1.5",
+          "type": "FORMULA"
+        }
+      ],
+      "explosivePower": [
+        {
+          "element": "explosivePower",
+          "type": "FIELD"
+        }
+      ]
+    },
+    {
+      "class": "ic2.core.block.EntityDynamite",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 1
+    },
+    {
+      "class": "ic2.core.item.tool.EntityMiningLaser",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "ic2.core.item.tool.ItemToolMiningLaser",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "EXPLOSIONS",
+      "range": 20
+    },
+    {
+      "class": "ic2.core.item.tool.PlasmaLauncher",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": false,
+      "flags": "EXPLOSIONS",
+      "range": 20
+    },
+    {
+      "class": "ic2.core.item.tool.EntityParticle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "FIELD"
+        }
+      ],
+      "range": 20
+    },
+    {
+      "class": "ic2.core.item.ItemIC2",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "ic2.core.item.tool.ItemElectricTool",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "ic2.core.block.BlockMultiID",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "modid": "ForgeMultipart",
+  "segments": [
+    {
+      "class": "codechicken.microblock.ItemMicroPart",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "meta": -1,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "codechicken.multipart.BlockMultipart",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    }
+  ]
+}

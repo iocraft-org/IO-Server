@@ -107,28 +107,28 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-Forestry-WorldGenerator: true
     worldgen-voltzengine-OreGenReplace: true
-    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-WarpDrive-CommonWorldGenerator: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-aobdbb-AOBDBBWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
     worldgen-ExtraUtilities-WorldGenEnderLillies: true
     worldgen-SGCraft-NaquadahOreWorldGen: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-rftools-GenericWorldGenerator: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-rftools-GenericWorldGenerator: true
     worldgen-chisel-GeneratorChisel: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-WarpDrive-CommonWorldGenerator: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-aobdbb-AOBDBBWorldGenerator: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-Mekanism-GenHandler: true
     worldgen-ASRuins-RuinsWorldGenerator: true
     worldgen-advancedRocketry-OreGenerator: true
     worldgen-Techguns-OreGenerator: true
@@ -159,8 +159,6 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
-  storage:
-    keep-world-loaded: false
   endoftime:
     keep-world-loaded: true
   underdark:
@@ -171,6 +169,8 @@ world-environment-settings:
     keep-world-loaded: true
   orbit:
     keep-world-loaded: true
+  storage:
+    keep-world-loaded: false
   asteroids:
     keep-world-loaded: true
     enabled: true

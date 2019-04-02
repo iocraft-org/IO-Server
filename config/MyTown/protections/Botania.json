@@ -1,0 +1,77 @@
+{
+  "modid": "Botania",
+  "segments": [
+    {
+      "class": "vazkii.botania.common.block.tile.mana.TileSpreader",
+      "type": "block",
+      "actions": "ANY_CLICK",
+      "flags": "ACTIVATE"
+    },
+    {
+      "class": "vazkii.botania.common.item.lens.ItemLens",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "USAGE"
+    },
+    {
+      "class": "vazkii.botania.common.item.rod.ItemTerraformRod$CoordsWithBlock",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 16
+    },
+    {
+      "class": "vazkii.botania.common.item.rod.ItemTerraformRod",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 16
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemManaGun",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 32
+    },
+    {
+      "class": "vazkii.botania.common.block.mana.BlockRuneAltar",
+      "type": "block",
+      "actions": "ANY_CLICK",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "vazkii.botania.common.entity.EntityEnderAirBottle",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "owner": [
+        {
+          "element": "func_85052_h",
+          "type": "METHOD"
+        }
+      ],
+      "range": 16
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemOpenBucket",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_AIR", "RIGHT_CLICK_ENTITY", "RIGHT_CLICK_BLOCK" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 8
+    },
+    {
+      "class": "vazkii.botania.common.item.ItemGrassHorn",
+      "type": "item",
+      "actions": [ "RIGHT_CLICK_BLOCK", "RIGHT_CLICK_AIR" ],
+      "isAdjacent": true,
+      "flags": "USAGE",
+      "range": 16
+    }
+  ]
+}

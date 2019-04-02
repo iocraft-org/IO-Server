@@ -1,0 +1,46 @@
+{
+  "modid": "powersuits",
+  "segments": [
+    {
+      "class": "net.machinemuse.powersuits.item.ItemPowerFist",
+      "type": "item",
+      "actions": "RIGHT_CLICK_AIR",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "net.machinemuse.powersuits.item.ItemPowerFist",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": true,
+      "flags": "MODIFY"
+    },
+    {
+      "class": "net.machinemuse.powersuits.entity.EntitySpinningBlade",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "range": 50
+    },
+    {
+      "class": "net.machinemuse.powersuits.entity.EntityLuxCapacitor",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "range": 50
+    },
+    {
+      "class": "net.machinemuse.powersuits.entity.EntityPlasmaBolt",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MODIFY",
+      "range": 50
+    },
+    {
+      "class": "net.machinemuse.powersuits.block.TileEntityLuxCapacitor",
+      "type": "tileEntity",
+      "retainsOwner": true,
+      "flags": "MODIFY"
+    },
+  ]
+}
