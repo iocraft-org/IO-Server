@@ -1,26 +1,26 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1554094421532
-  logout: 1554096382360
-  lastteleport: 1554096218441
+  login: 1554201144863
+  logout: 1554201636266
+  lastteleport: 1554201426987
   kits:
     tools: 1554094583117
 ipAddress: 75.129.254.61
 lastlocation:
   world: world
-  x: 140.69999998807907
-  y: 8.0
-  z: 264.3463500896224
-  yaw: -288.43204
-  pitch: 17.399979
+  x: -3.872269439749906
+  y: 73.0
+  z: -1.6417883004578204
+  yaw: -227.09987
+  pitch: 15.150056
 money: '298.0'
 logoutlocation:
   world: world
-  x: 142.3185583925821
-  y: 63.0
-  z: 203.91064222669107
-  yaw: 248.09949
-  pitch: 26.54997
+  x: 109.29363917878031
+  y: 67.0
+  z: -19.27723985974902
+  yaw: -245.99994
+  pitch: 4.6500726
 homes:
   mining:
     world: world

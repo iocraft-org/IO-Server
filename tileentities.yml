@@ -28,19 +28,10 @@ world-settings:
     matteroverdrive-tile-TileEntityGravitationalAnomaly:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
+    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityWeaponStation:
@@ -52,19 +43,40 @@ world-settings:
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+    matteroverdrive-tile-TileEntityMachineStarMap:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
+    matteroverdrive-tile-TileEntityMachineReplicator:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkSwitch:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+    matteroverdrive-tile-TileEntityMachineChargingStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityAndroidStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
@@ -209,18 +221,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityInscriber:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityAndroidStation:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineChargingStation:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineStarMap:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileEscritoire:
