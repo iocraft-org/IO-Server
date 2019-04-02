@@ -98,3 +98,6 @@ plugins/NodeBBIntegration/config.yml
 plugins/OnTime/backup
 plugins/OnTime/backup/*
 spigot.yml
+Universe/
+Universe/*
+Universe
