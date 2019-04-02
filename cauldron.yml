@@ -159,6 +159,8 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
   endoftime:
     keep-world-loaded: true
   underdark:
@@ -169,15 +171,13 @@ world-environment-settings:
     keep-world-loaded: true
   orbit:
     keep-world-loaded: true
-  storage:
-    keep-world-loaded: false
+  moon:
+    keep-world-loaded: true
+    enabled: true
   asteroids:
     keep-world-loaded: true
     enabled: true
   mars:
-    keep-world-loaded: true
-    enabled: true
-  moon:
     keep-world-loaded: true
     enabled: true
   planet:
