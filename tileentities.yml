@@ -22,16 +22,43 @@ debug:
 config-version: 1
 world-settings:
   default:
+    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileSwarm:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
-    forestry-apiculture-tiles-TileSwarm:
+    matteroverdrive-tile-TileEntityTritaniumCrate:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityFusionReactorPart:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkSwitch:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-door-tileentity-DoorTileEntity:
@@ -44,9 +71,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     li-cil-oc-common-tileentity-Screen:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityTritaniumCrate:
       tick-no-players: false
       tick-interval: 1
     li-cil-oc-common-tileentity-Rack:
@@ -86,9 +110,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityBoundingBox:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkSwitch:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp3:
@@ -190,28 +211,7 @@ world-settings:
     crazypants-enderio-machine-wireless-TileWirelessCharger:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineReplicator:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkRouter:
       tick-no-players: false
       tick-interval: 1
     forestry-apiculture-tiles-TileApiary:

@@ -107,28 +107,28 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-SGCraft-NaquadahOreWorldGen: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-rftools-GenericWorldGenerator: true
-    worldgen-voltzengine-OreGenReplace: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-CoFHCore-WorldHandler: true
-    worldgen-denseores-WorldGenOres: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-aobdbb-AOBDBBWorldGenerator: true
-    worldgen-WarpDrive-CommonWorldGenerator: true
-    worldgen-chisel-GeneratorChisel: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-TConstruct-SlimeIslandGen: true
     worldgen-Forestry-WorldGenerator: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-SGCraft-NaquadahOreWorldGen: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-rftools-GenericWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-WarpDrive-CommonWorldGenerator: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-aobdbb-AOBDBBWorldGenerator: true
     worldgen-ASRuins-RuinsWorldGenerator: true
     worldgen-advancedRocketry-OreGenerator: true
     worldgen-Techguns-OreGenerator: true
