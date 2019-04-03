@@ -90,11 +90,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityWitch:
+    micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
+    net-minecraft-entity-monster-EntityWitch:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
