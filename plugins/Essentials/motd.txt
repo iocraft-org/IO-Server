@@ -1,4 +1,4 @@
-&LioCraft.org &r&f| This server is located in Turkey
+&LioCraft.org &r&f| This server is located in $SERVER_LOCATION
 §7Web: §ehttps://www.iocraft.org
 §7Discord: §ehttps://discord.gg/V72fB6D
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
