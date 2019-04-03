@@ -1,0 +1,12 @@
+alias l="ls -lhp"
+alias ..="cd .."
+alias df="df -h"
+
+alias grep="grep --color"
+
+# WarpDrive added stuff starts here
+
+alias ll="ls -lhp"
+
+# mimic CC autoboot
+/startup
