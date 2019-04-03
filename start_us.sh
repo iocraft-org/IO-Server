@@ -24,6 +24,8 @@ if ! screen -list | grep -q "iogame"; then
 	rm server.properties
 	sed s/MCR_PASS/$MCR_PASS/g server.properties.template > server.properties
 
+	cp -rf plugins/DiscordSRV-Build-1.16.7.jar.disabled plugins/DiscordSRV-Build-1.16.7.jar
+
         rm spigot.yml
         sed s/START_SCRIPT/$START_SCRIPT/g spigot.yml.template > spigot.yml
 
