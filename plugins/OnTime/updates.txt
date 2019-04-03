@@ -1,0 +1,24 @@
+START_OUTPUT_V18_A
+#
+# Output for the '/ontime <player> world=<world>' command
+#    
+   ontime-other-world:
+     lines: 6
+     line-1: '[player] : OnTime for world: [world]'
+     line-2: '[player] : Last login on [lastLogin]'
+     line-3: '[player] : This login= [current] &c [afk]'
+     line-4: '[player] : Today= [daily]'
+     line-5: '[player] : This Week= [weekly]'
+     line-6: '[player] : This Month= [monthly]'
+     line-7: '[player] : Total Time= [total]'
+# endOntime-other-world
+#
+END_OUTPUT_V18_A
+
+START_OUTPUT_V19_A
+      tax:
+        lines: 3
+        line-1: '&a Attention [player]!'
+        line-2: '&a You have been taxed [rewardString]'
+        line-3: '&a For playing [scope] <in [rewardWorld] >for [scopetime]'
+END_OUTPUT_V19_A
