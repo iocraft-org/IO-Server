@@ -11,6 +11,7 @@ MYSQL_HOSTNAME=$(cat ~/.mysql_hostname)
 #IRC_PASSWORD=$(cat ~/.irc_password)
 MCR_PASS=$(cat ~/.mcr_pass)
 START_SCRIPT=$(echo "start_canada.sh")
+SERVER_LOCATION=$(echo "Canada")
 RESTART_TIME=$(echo "5000")
 #MONGO=$(cat ~/.mongo)
 JAR="Thermos-1.7.10-1614-server.jar"
@@ -28,7 +29,7 @@ if ! screen -list | grep -q "iogame"; then
         sed s/START_SCRIPT/$START_SCRIPT/g spigot.yml.template > spigot.yml
 
         rm plugins/Essentials/motd.txt
-        sed `s/SERVER_LOCATION/Canada/g` plugins/Essentials/motd.txt.template > plugins/Essentials/motd.txt
+        sed 's/SERVER_LOCATION/$SERVER_LOCATION/g' plugins/Essentials/motd.txt.template > plugins/Essentials/motd.txt
 
         rm plugins/Restart/config.yml
         sed s/RESTART_TIME/$RESTART_TIME/g plugins/Restart/config.yml.template > plugins/Restart/config.yml
