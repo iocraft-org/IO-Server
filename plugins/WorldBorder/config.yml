@@ -14,3 +14,10 @@ deny-enderpearl: true
 fill-autosave-frequency: 30
 bypass-list-uuids: []
 fill-memory-tolerance: 500
+worlds:
+  world:
+    x: -1286.5
+    z: 1079.5
+    radiusX: 500
+    radiusZ: 500
+    wrapping: false

@@ -22,3 +22,7 @@ alphatospawn:
   location: advRocketry/DIM1001, 6.630, 72.200, 0.547
   lines:
   - '&fPortal to &lSpawn'
+welcomeus:
+  location: world, -1286.454, 73.165, 1082.535
+  lines:
+  - Welcome to the Turkey ioCraft.org Server!
