@@ -169,13 +169,16 @@ world-settings:
     cofh-thermalexpansion-block-machine-TileFurnace:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
+    cr0s-warpdrive-block-breathing-TileEntityAirGeneratorTiered:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-light-TileElectricLight:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-TileEntityLaserMedium:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-computer-blocks-TileComputer:
@@ -185,9 +188,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-wireless-TileWirelessCharger:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-breathing-TileEntityAirGeneratorTiered:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
