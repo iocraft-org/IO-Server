@@ -78,15 +78,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSHorse:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
